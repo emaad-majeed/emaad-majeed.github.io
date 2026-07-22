@@ -1,0 +1,14 @@
+# Site settings — kept minimal on purpose. Real design/content comes later.
+title: Emaad Majeed
+description: Maker & engineer — portfolio hub
+url: "https://emaad-majeed.github.io"
+baseurl: ""
+
+# No theme: layouts are fully hand-written in _layouts/ so we control the design.
+markdown: kramdown
+
+# Don't let Jekyll process these.
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - README.md
