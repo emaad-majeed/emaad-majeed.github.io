@@ -11,8 +11,10 @@ body {
 .wrap {
   max-width: 42rem;
   margin: 0 auto;
-  padding: 18vh 1.5rem 4rem;
+  padding: 5rem 1.5rem 6rem;
 }
+
+.home .wrap { padding-top: 16vh; }
 
 h1 {
   font-size: clamp(2rem, 6vw, 3rem);
@@ -21,5 +23,49 @@ h1 {
 }
 
 .muted { opacity: 0.6; }
-
 a { color: inherit; }
+
+/* ---- home lists (projects, writing) ---- */
+.list { margin-top: 3.5rem; }
+.list h2 {
+  font-size: 0.8rem; font-weight: 500; text-transform: uppercase;
+  letter-spacing: 0.08em; opacity: 0.45; margin: 0 0 0.5rem;
+}
+.row {
+  display: block; text-decoration: none;
+  padding: 1rem 0; border-top: 1px solid rgba(128,128,128,0.2);
+}
+.list .row:last-child { border-bottom: 1px solid rgba(128,128,128,0.2); }
+.row .year { opacity: 0.4; font-size: 0.85rem; float: right; }
+.row .title { font-weight: 500; display: block; }
+.row:hover .title { text-decoration: underline; }
+.row .desc { opacity: 0.55; font-size: 0.95rem; display: block; }
+
+.foot { margin-top: 3.5rem; opacity: 0.6; }
+
+/* ---- project / post / about pages ---- */
+.back {
+  display: inline-block; text-decoration: none;
+  opacity: 0.55; font-size: 0.9rem; margin-bottom: 2.5rem;
+}
+.back:hover { text-decoration: underline; }
+
+.ph { margin-bottom: 2rem; }
+.ph h1 { margin: 0; }
+.ph .year { opacity: 0.4; font-size: 1rem; }
+
+article { font-size: 1.02rem; }
+article p { margin: 1.1rem 0; }
+article h2 { font-size: 1.4rem; margin-top: 2.5rem; letter-spacing: -0.01em; }
+article h3 { font-size: 1.15rem; margin-top: 2rem; }
+article ul, article ol { padding-left: 1.25rem; }
+article li { margin: 0.35rem 0; }
+article a { text-decoration: underline; }
+article img {
+  max-width: 100%; height: auto; display: block;
+  border-radius: 8px; margin: 1.75rem 0;
+}
+article blockquote {
+  margin: 1.5rem 0; padding-left: 1rem;
+  border-left: 3px solid rgba(128,128,128,0.3); opacity: 0.8;
+}

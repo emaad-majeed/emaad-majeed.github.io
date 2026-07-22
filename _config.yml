@@ -1,13 +1,27 @@
-# Site settings — kept minimal on purpose. Real design/content comes later.
+# Site settings — minimal, custom layouts (no theme).
 title: Emaad Majeed
-description: Maker & engineer — portfolio hub
+description: Maker & engineer — portfolio
 url: "https://emaad-majeed.github.io"
 baseurl: ""
 
-# No theme: layouts are fully hand-written in _layouts/ so we control the design.
 markdown: kramdown
 
-# Don't let Jekyll process these.
+# Content collections. Each project / post is one Markdown file that becomes its own page.
+collections:
+  projects:
+    output: true
+    permalink: /projects/:name/
+  blog:
+    output: true
+    permalink: /blog/:name/
+
+# Give each collection its layout automatically.
+defaults:
+  - scope: { path: "", type: "projects" }
+    values: { layout: "project" }
+  - scope: { path: "", type: "blog" }
+    values: { layout: "post" }
+
 exclude:
   - Gemfile
   - Gemfile.lock
