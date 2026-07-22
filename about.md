@@ -1,6 +1,7 @@
 ---
 layout: page
 title: "About"
+permalink: /about/
 ---
 
 I am a Glenbrook South SELC Engineer with a passion of solving problems, digital designing, electronics and cooking. Throughout my SELC career I have made many projects involving Fusion 360, electronics, programming, woodworking and laser cutting.
