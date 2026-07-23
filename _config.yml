@@ -1,26 +1,21 @@
 # Site settings — minimal, custom layouts (no theme).
 title: Emaad Majeed
-description: Maker & engineer — portfolio
-url: "https://emaad-majeed.github.io"
+description: Aspiring industrial designer — portfolio
+url: "https://emaadmajeed.com"
 baseurl: ""
 
 markdown: kramdown
 
-# Content collections. Each project / post is one Markdown file that becomes its own page.
+# Content collections. Each project is one Markdown file that becomes its own page.
 collections:
   projects:
     output: true
     permalink: /projects/:name/
-  blog:
-    output: true
-    permalink: /blog/:name/
 
-# Give each collection its layout automatically.
+# Give each project its layout automatically.
 defaults:
   - scope: { path: "", type: "projects" }
     values: { layout: "project" }
-  - scope: { path: "", type: "blog" }
-    values: { layout: "post" }
 
 exclude:
   - Gemfile

@@ -3,18 +3,17 @@
 Personal portfolio site for **Emaad Majeed** — maker & engineer.
 Hosted on GitHub Pages, built with Jekyll.
 
-**Live:** https://emaad-majeed.github.io
+**Live:** https://emaadmajeed.com
 
 ## Structure
 
 - `_config.yml` — site settings (no theme; custom layouts).
-- `index.md` — home page: intro + Projects list + Writing list.
+- `index.md` — home page: intro + Select Projects + Projects list.
 - `_projects/*.md` — one Markdown file per project (front matter: `title`, `year`, `blurb`).
-- `_blog/*.md` — one Markdown file per blog post.
 - `about.md` — about + contact.
-- `_layouts/` — `default` (shell), `project`, `post`, `page`.
+- `_layouts/` — `default` (shell), `project`, `page`.
 - `assets/css/style.css` — all styles.
-- `assets/projects/<slug>/` and `assets/blog/<slug>/` — images, stored in-repo.
+- `assets/projects/<slug>/` — images, stored in-repo.
 
 ## Adding a project
 
