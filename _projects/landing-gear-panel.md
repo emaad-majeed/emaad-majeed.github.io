@@ -1,6 +1,7 @@
 ---
 title: "Landing Gear Panel"
 year: "2022"
+category: "737"
 blurb: "A laser cut landing gear panel wired to an Arduino for my 737 flight simulator cockpit."
 ---
 

@@ -1,6 +1,7 @@
 ---
 title: "Auto Brake Panel"
 year: "2022"
+category: "737"
 blurb: "A combined panel carrying speed ref, autobrake, antiskid, and fuel flow controls."
 ---
 

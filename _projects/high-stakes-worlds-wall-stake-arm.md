@@ -1,6 +1,7 @@
 ---
 title: "High Stakes Worlds Wall Stake Arm"
 year: "2025"
+category: "vex"
 blurb: "A CAD design for the wall stake scoring arm on my High Stakes World Championship robot."
 ---
 

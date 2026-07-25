@@ -1,6 +1,7 @@
 ---
 title: "Overhead Air Temperature Panel"
 year: "2023"
+category: "737"
 blurb: "A laser cut air temperature and cabin control panel for my homemade Boeing 737 cockpit."
 ---
 

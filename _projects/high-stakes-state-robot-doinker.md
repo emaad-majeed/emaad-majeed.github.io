@@ -1,6 +1,7 @@
 ---
 title: "High Stakes State Robot Doinker"
 year: "2025"
+category: "vex"
 blurb: "The small pivoting doinker mechanism from my High Stakes state robot."
 ---
 

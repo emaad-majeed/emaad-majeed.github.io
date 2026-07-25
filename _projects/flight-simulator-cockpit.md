@@ -1,6 +1,7 @@
 ---
 title: "737 Flight Simulator Cockpit Project (Part 1)"
 year: "2023"
+category: "737"
 blurb: "Building a backlit, Arduino-driven 737 cockpit for Microsoft Flight Simulator 2020."
 ---
 

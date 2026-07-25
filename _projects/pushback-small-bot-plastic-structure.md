@@ -1,6 +1,7 @@
 ---
 title: "Pushback Small Bot Plastic Structure"
 year: "2025"
+category: "vex"
 blurb: "A custom plastic structural piece I modeled for the Push Back small bot."
 ---
 

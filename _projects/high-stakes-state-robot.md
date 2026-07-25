@@ -1,6 +1,7 @@
 ---
 title: "High Stakes State Robot"
 year: "2025"
+category: "vex"
 blurb: "The full competition robot I built for the High Stakes state tournament."
 ---
 

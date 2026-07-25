@@ -1,6 +1,7 @@
 ---
 title: "High Stakes Robot 1 Intake"
 year: "2026"
+category: "vex"
 blurb: "The intake subsystem for my first High Stakes VEX V5 robot, built to pick up and lift game rings."
 ---
 

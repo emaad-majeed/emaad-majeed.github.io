@@ -1,6 +1,7 @@
 ---
 title: "Pushback Hood"
 year: "2026"
+category: "vex"
 blurb: "A laser cut hood plate I designed for a VEX V5 Push Back robot, with a lightening pattern to cut weight."
 ---
 

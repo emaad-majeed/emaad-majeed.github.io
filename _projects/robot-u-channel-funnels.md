@@ -1,6 +1,7 @@
 ---
 title: "Robot U Channel Funnels"
 year: "2025"
+category: "vex"
 blurb: "Custom U channel funnel pieces I designed to guide game elements into the robot."
 ---
 

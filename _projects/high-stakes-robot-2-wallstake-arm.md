@@ -1,6 +1,7 @@
 ---
 title: "High Stakes Robot 2 Wallstake Arm"
 year: "2025"
+category: "vex"
 blurb: "A pivoting wall stake arm I built for my second High Stakes robot."
 ---
 

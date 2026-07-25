@@ -1,6 +1,7 @@
 ---
 title: "Wiring Connectors"
 year: "2024"
+category: "737"
 blurb: "Multi pin connectors that gather the panel wiring into a single tidy plug."
 ---
 

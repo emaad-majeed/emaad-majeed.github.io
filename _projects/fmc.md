@@ -1,6 +1,7 @@
 ---
 title: "Flight Management Computer (FMC)"
 year: "2023"
+category: "737"
 blurb: "The full FMC keypad for my 737 cockpit, with a laser cut key legend and dozens of individual labeled buttons."
 ---
 

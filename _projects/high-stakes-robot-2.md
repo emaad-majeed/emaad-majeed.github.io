@@ -1,6 +1,7 @@
 ---
 title: "High Stakes Robot 2"
 year: "2024"
+category: "vex"
 blurb: "My second VEX V5 competition robot for the High Stakes season, with a wheeled drive, an arm, and a pneumatic system."
 ---
 

@@ -1,6 +1,7 @@
 ---
 title: "Overhead Electrical Panel"
 year: "2024"
+category: "737"
 blurb: "A laser cut electrical meter and power selector panel for my homemade Boeing 737 cockpit."
 ---
 

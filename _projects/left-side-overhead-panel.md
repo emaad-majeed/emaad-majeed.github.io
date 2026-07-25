@@ -1,6 +1,7 @@
 ---
 title: "Left Side Overhead Panel"
 year: "2023"
+category: "737"
 blurb: "A left side overhead panel from my 737 flight simulator cockpit."
 ---
 

@@ -1,6 +1,7 @@
 ---
 title: "Annunciators"
 year: "2024"
+category: "737"
 blurb: "Warning light legends that illuminate to flag conditions in the cockpit."
 ---
 

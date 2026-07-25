@@ -1,6 +1,7 @@
 ---
 title: "Pneumatic Panel"
 year: "2023"
+category: "737"
 blurb: "The bleed air and air conditioning panel for my 737 cockpit, drawn as laser cut vectors."
 ---
 

@@ -1,6 +1,7 @@
 ---
 title: "450RPM Drivetrain Center Traction"
 year: "2025"
+category: "vex"
 blurb: "A VEX V5 drivetrain I designed in CAD and built, geared for 450 RPM with a center traction wheel setup."
 ---
 

@@ -1,6 +1,7 @@
 ---
 title: "Override Robot Lift"
 year: "2025"
+category: "vex"
 blurb: "A VEX V5 robot lift I designed in CAD, built from metal rails, gears, and a motor cartridge."
 ---
 

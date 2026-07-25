@@ -1,6 +1,7 @@
 ---
 title: "Flight Control Overhead Panel"
 year: "2023"
+category: "737"
 blurb: "A laser cut overhead panel for flight control, spoiler, yaw damper and alternate flaps switches."
 ---
 

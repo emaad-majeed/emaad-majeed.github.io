@@ -1,6 +1,7 @@
 ---
 title: "Center Overhead Panel"
 year: "2023"
+category: "737"
 blurb: "The center strip of my 737 overhead, grouping circuit breaker, equip cooling, emer exit lights and cabin sign controls as a laser cut face."
 ---
 

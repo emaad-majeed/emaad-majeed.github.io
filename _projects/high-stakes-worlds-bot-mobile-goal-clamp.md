@@ -1,6 +1,7 @@
 ---
 title: "High Stakes Worlds Bot Mobile Goal Clamp"
 year: "2025"
+category: "vex"
 blurb: "The mobile goal clamp on the VEX V5 robot I took to the High Stakes World Championship."
 ---
 

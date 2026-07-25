@@ -1,6 +1,7 @@
 ---
 title: "Main Instrument Panel (MIP)"
 year: "2022"
+category: "737"
 blurb: "The large laser cut main instrument panel that anchors my 737 flight simulator cockpit."
 ---
 

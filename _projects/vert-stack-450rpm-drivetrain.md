@@ -1,6 +1,7 @@
 ---
 title: "Vert Stack 450RPM Drivetrain"
 year: "2025"
+category: "vex"
 blurb: "A VEX V5 drivetrain with vertically stacked gears geared for 450 RPM."
 ---
 

@@ -1,6 +1,7 @@
 ---
 title: "Autopilot Flight Director System (AFDS) Panel"
 year: "2022"
+category: "737"
 blurb: "A laser cut, Arduino wired AFDS panel from my 737 flight simulator cockpit."
 ---
 

@@ -1,6 +1,7 @@
 ---
 title: "Overhead Panel"
 year: "2024"
+category: "737"
 blurb: "The assembled overhead stack of my homemade Boeing 737 cockpit coming together on its wooden frame."
 ---
 

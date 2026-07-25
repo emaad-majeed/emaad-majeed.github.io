@@ -1,6 +1,7 @@
 ---
 title: "Flaps Gauge"
 year: "2023"
+category: "737"
 blurb: "A round flaps position gauge driven by a small stepper motor for my 737 cockpit."
 ---
 

@@ -1,6 +1,7 @@
 ---
 title: "Anti Ice Panel"
 year: "2023"
+category: "737"
 blurb: "The overhead anti ice panel with wing and engine anti ice switches."
 ---
 

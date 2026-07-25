@@ -1,6 +1,7 @@
 ---
 title: "Navigation Overhead Panel"
 year: "2023"
+category: "737"
 blurb: "A laser cut navigation and display source panel for my homemade Boeing 737 cockpit."
 ---
 

@@ -1,6 +1,7 @@
 ---
 title: "Pushback Intake Concept"
 year: "2025"
+category: "vex"
 blurb: "A CAD concept for a VEX V5 Push Back intake that pulls in the game ball between two rollers."
 ---
 

@@ -1,6 +1,7 @@
 ---
 title: "High Stakes Worlds Bot"
 year: "2025"
+category: "vex"
 blurb: "The full VEX V5 robot I designed and built for the High Stakes World Championship."
 ---
 

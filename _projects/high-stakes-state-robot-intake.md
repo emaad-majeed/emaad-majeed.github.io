@@ -1,6 +1,7 @@
 ---
 title: "High Stakes State Robot Intake"
 year: "2025"
+category: "vex"
 blurb: "The intake mechanism I built for my High Stakes state robot."
 ---
 

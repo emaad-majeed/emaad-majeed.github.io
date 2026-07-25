@@ -1,6 +1,7 @@
 ---
 title: "High Stakes State Robot Mobile Goal Clamp"
 year: "2025"
+category: "vex"
 blurb: "The pneumatic mobile goal clamp I built into my High Stakes state competition robot."
 ---
 

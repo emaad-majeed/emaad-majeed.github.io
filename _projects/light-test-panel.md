@@ -1,6 +1,7 @@
 ---
 title: "Light Test Panel"
 year: "2022"
+category: "737"
 blurb: "A laser cut light test and reset panel for my 737 flight simulator cockpit."
 ---
 

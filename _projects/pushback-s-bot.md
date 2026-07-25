@@ -1,6 +1,7 @@
 ---
 title: "Pushback S Bot"
 year: "2026"
+category: "vex"
 blurb: "A full VEX V5 Push Back competition robot I designed in CAD and built, run under team 38535X Nox."
 ---
 

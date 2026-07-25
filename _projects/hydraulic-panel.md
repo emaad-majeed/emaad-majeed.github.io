@@ -1,6 +1,7 @@
 ---
 title: "Hydraulic Panel"
 year: "2023"
+category: "737"
 blurb: "A laser cut hydraulic pumps panel with engine and electric pump switches for my 737 cockpit."
 ---
 

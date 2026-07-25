@@ -1,6 +1,7 @@
 ---
 title: "Pushback Small Bot"
 year: "2025"
+category: "vex"
 blurb: "A compact VEX V5 competition robot I designed and built for the Push Back season."
 ---
 

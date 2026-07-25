@@ -1,6 +1,7 @@
 ---
 title: "Pushback S Bot Aligner"
 year: "2025"
+category: "vex"
 blurb: "A CAD design for an aligner on my VEX V5 Push Back S Bot, mounted low across the front of the frame."
 ---
 

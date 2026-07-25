@@ -1,6 +1,7 @@
 ---
 title: "High Stakes Robot 2 Mobile Goal Clamp"
 year: "2025"
+category: "vex"
 blurb: "The mobile goal clamp on my second High Stakes VEX V5 robot, built to grab and hold a mobile goal."
 ---
 

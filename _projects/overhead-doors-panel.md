@@ -1,6 +1,7 @@
 ---
 title: "Overhead Doors Panel"
 year: "2023"
+category: "737"
 blurb: "A laser cut door indicator panel for my homemade Boeing 737 cockpit."
 ---
 

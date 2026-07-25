@@ -1,6 +1,7 @@
 ---
 title: "Pushback Small Bot Development"
 year: "2025"
+category: "vex"
 blurb: "The CAD development process behind my Push Back small bot, from drivetrain to scoring mechanism."
 ---
 

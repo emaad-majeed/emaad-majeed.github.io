@@ -1,6 +1,7 @@
 ---
 title: "Override Robot"
 year: "2025"
+category: "vex"
 blurb: "A VEX V5 robot I designed in CAD with an omni drivetrain, intake, and scoring structure."
 ---
 

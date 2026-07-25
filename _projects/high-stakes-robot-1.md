@@ -1,6 +1,7 @@
 ---
 title: "High Stakes Robot 1"
 year: "2024"
+category: "vex"
 blurb: "My first VEX V5 competition robot for the High Stakes season, built around a tracked base and a tall arm."
 ---
 

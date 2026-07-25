@@ -1,6 +1,7 @@
 ---
 title: "Pushback Small Bot 90 Gusset"
 year: "2025"
+category: "vex"
 blurb: "A lightweight 90 degree gusset I designed to brace the Push Back small bot frame."
 ---
 

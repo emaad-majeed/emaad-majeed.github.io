@@ -1,6 +1,7 @@
 ---
 title: "Landing Light Overhead Panel"
 year: "2023"
+category: "737"
 blurb: "A laser cut overhead lighting and engine start panel for my 737 flight simulator cockpit."
 ---
 

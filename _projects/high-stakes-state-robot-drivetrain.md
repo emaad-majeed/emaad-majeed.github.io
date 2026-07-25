@@ -1,6 +1,7 @@
 ---
 title: "High Stakes State Robot Drivetrain"
 year: "2025"
+category: "vex"
 blurb: "The wheeled chassis and gearing I built for my High Stakes state robot."
 ---
 
