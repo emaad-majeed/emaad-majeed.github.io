@@ -1,6 +1,6 @@
 ---
 title: "Hydraulic Panel"
-year: 2023
+year: "2023"
 blurb: "A laser cut hydraulic pumps panel with engine and electric pump switches for my 737 cockpit."
 ---
 

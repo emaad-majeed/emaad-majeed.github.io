@@ -1,6 +1,6 @@
 ---
 title: "Wire Panel Demonstration"
-year: 2023
+year: "2023"
 blurb: "A short demonstration of a wired panel from my 737 cockpit driving the simulator."
 ---
 

@@ -1,6 +1,6 @@
 ---
 title: "Battery Panel Overhead"
-year: 2023
+year: "2023"
 blurb: "The overhead standby power panel with battery switch and generator disconnects."
 ---
 

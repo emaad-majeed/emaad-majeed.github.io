@@ -1,6 +1,6 @@
 ---
 title: "Overhead White Panels"
-year: 2023
+year: "2023"
 blurb: "Light gray and white overhead panels with engraved labels for my 737 cockpit."
 ---
 

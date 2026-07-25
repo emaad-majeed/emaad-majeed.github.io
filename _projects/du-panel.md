@@ -1,6 +1,6 @@
 ---
 title: "Display Unit (DU) Panel"
-year: 2022
+year: "2022"
 blurb: "The display unit selector panel in my 737 cockpit, with laser cut source dials for the main panel and lower displays."
 ---
 

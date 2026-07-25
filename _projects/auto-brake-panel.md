@@ -1,6 +1,6 @@
 ---
 title: "Auto Brake Panel"
-year: 2022
+year: "2022"
 blurb: "A combined panel carrying speed ref, autobrake, antiskid, and fuel flow controls."
 ---
 

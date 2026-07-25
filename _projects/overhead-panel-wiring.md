@@ -1,6 +1,6 @@
 ---
 title: "Overhead Panel Wiring"
-year: 2024
+year: "2024"
 blurb: "Hand soldered switches and resistors wired behind the overhead panels of my 737 cockpit."
 ---
 

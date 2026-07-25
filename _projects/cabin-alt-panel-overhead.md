@@ -1,6 +1,6 @@
 ---
 title: "Cabin Altitude Panel Overhead"
-year: 2023
+year: "2023"
 blurb: "A small overhead strip for the alt horn cutout in my 737 cockpit, drawn and cut as a laser cut vector."
 ---
 

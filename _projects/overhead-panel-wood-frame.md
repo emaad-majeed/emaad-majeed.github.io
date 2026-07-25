@@ -1,6 +1,6 @@
 ---
 title: "Overhead Panel Wood Frame"
-year: 2023
+year: "2023"
 blurb: "The laser cut plywood frame that holds the overhead panels of my 737 cockpit."
 ---
 

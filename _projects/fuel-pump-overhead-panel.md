@@ -1,6 +1,6 @@
 ---
 title: "Fuel Pump Overhead Panel"
-year: 2023
+year: "2023"
 blurb: "A laser cut fuel system overhead panel with crossfeed and fuel pump switches wired by hand."
 ---
 

@@ -1,6 +1,6 @@
 ---
 title: "Bus Panel Overhead"
-year: 2023
+year: "2023"
 blurb: "The electrical bus panel from the overhead of my 737 cockpit, with laser cut faces for the GEN, APU GEN and bus transfer controls."
 ---
 

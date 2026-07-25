@@ -1,6 +1,6 @@
 ---
 title: "737 Arduino Wiring"
-year: 2023
+year: "2023"
 blurb: "The wiring layer that carries every cockpit panel input back to an Arduino."
 ---
 

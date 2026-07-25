@@ -1,6 +1,6 @@
 ---
 title: "Annunciators"
-year: 2024
+year: "2024"
 blurb: "Warning light legends that illuminate to flag conditions in the cockpit."
 ---
 

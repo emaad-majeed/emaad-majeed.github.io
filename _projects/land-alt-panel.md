@@ -1,6 +1,6 @@
 ---
 title: "Land Altitude Panel"
-year: 2023
+year: "2023"
 blurb: "A laser cut pressurization panel with flight and landing altitude controls for my 737 cockpit."
 ---
 

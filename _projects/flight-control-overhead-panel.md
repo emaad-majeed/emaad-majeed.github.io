@@ -1,6 +1,6 @@
 ---
 title: "Flight Control Overhead Panel"
-year: 2023
+year: "2023"
 blurb: "A laser cut overhead panel for flight control, spoiler, yaw damper and alternate flaps switches."
 ---
 

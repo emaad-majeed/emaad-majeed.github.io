@@ -1,6 +1,6 @@
 ---
 title: "Anti Ice Panel"
-year: 2023
+year: "2023"
 blurb: "The overhead anti ice panel with wing and engine anti ice switches."
 ---
 
