@@ -4,7 +4,7 @@ year: "2025"
 blurb: "The full VEX V5 robot I designed and built for the High Stakes World Championship."
 ---
 
-This is the complete VEX V5 robot I designed in CAD and built for the High Stakes World Championship. It pairs an omni wheel drivetrain with a tall wall stake arm that lifts a ring up to scoring height, plus scoring hardware and 3D printed gussets that tie the frame together. The design renders show the CAD version of the robot from a few angles, and the build photos show the finished robot with my team number plate, tested at home and at the competition venue.
+This is the complete VEX V5 robot I designed in CAD and built for the High Stakes World Championship. It pairs an omni wheel drivetrain with a tall wall stake arm that lifts a ring up to scoring height, plus scoring hardware and laser cut Delrin gussets that tie the frame together. The design renders show the CAD version of the robot from a few angles, and the build photos show the finished robot with my team number plate, tested at home and at the competition venue.
 
 ![CAD render of the full robot with the wall stake arm raised and a ring held at the top](/assets/projects/high-stakes-worlds-bot/design-01.png)
 ![Second CAD render of the robot showing the drivetrain, gearing, and arm structure](/assets/projects/high-stakes-worlds-bot/design-02.png)
