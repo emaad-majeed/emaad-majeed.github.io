@@ -6,7 +6,11 @@ blurb: "A laser cut fuel system overhead panel with crossfeed and fuel pump swit
 
 This is the fuel pump overhead panel from my homemade 737 cockpit. It carries the CROSS FEED valve switch at the top and the FUEL PUMPS switches for the left, right and center tanks along with the forward and aft pumps for tanks 1 and 2, each labelled OFF and ON. The design files show the panel artwork and the cut outline, the finished laser cut face held in hand, and the back side where I hand soldered the switches with resistors and ran the wiring across the panel.
 
-A demonstration video will be added later.
+<div class="video"><iframe src="https://www.youtube.com/embed/5UUj1bBF4RY" title="Fuel pump panel demonstration 1" loading="lazy" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe></div>
+
+<div class="video"><iframe src="https://www.youtube.com/embed/Tp97CGwVfj0" title="Fuel pump panel demonstration 2" loading="lazy" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe></div>
+
+<div class="video"><iframe src="https://www.youtube.com/embed/4j0BBvnuxiU" title="Fuel pump panel demonstration 3" loading="lazy" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe></div>
 
 ![Fuel pump overhead panel design with crossfeed and fuel pump labels](/assets/projects/fuel-pump-overhead-panel/design-01.png)
 ![Fuel pump overhead panel cut outline with switch and light openings](/assets/projects/fuel-pump-overhead-panel/design-02.png)

@@ -9,4 +9,4 @@ These are the annunciator warning lights for my Boeing 737 cockpit, the small il
 ![Vector legends for cabin altitude, takeoff config, speedbrake armed, and speedbrake do not arm](/assets/projects/annunciators/design-01.png)
 ![A small black light box holding two LEDs with their legs bent out for wiring](/assets/projects/annunciators/photo-01.jpg)
 
-A demonstration video will be added.
+<div class="video"><iframe src="https://www.youtube.com/embed/ltCI6i8SJo0" title="Annunciators demonstration" loading="lazy" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe></div>

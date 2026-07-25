@@ -6,6 +6,6 @@ blurb: "A round flaps position gauge driven by a small stepper motor for my 737 
 
 This is the flaps position gauge from my homemade 737 cockpit. The dial reads UP and FLAPS with marked positions at 1, 2, 5, 10, 15, 25, 30 and 40, and a white needle sweeps across them. Behind the face I used a small geared stepper motor with its driver board to move the needle, and the driver is wired through to the rest of the build so the position can follow the simulator.
 
-A demonstration video will be added later.
+<div class="video"><iframe src="https://www.youtube.com/embed/SJs-SMFXMXE" title="Flaps gauge demonstration" loading="lazy" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe></div>
 
 ![Flaps gauge with printed dial face, stepper motor and driver board during testing](/assets/projects/flaps-guage/photo-01.jpg)
