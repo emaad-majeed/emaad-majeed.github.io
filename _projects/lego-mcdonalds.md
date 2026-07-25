@@ -13,3 +13,5 @@ The LEGO project was one of my first class projects. This project consisted of m
 ![Fusion 360 screenshot](/assets/projects/lego-mcdonalds/screen-shot-2024-01-09-at-8.09.41-am.png)
 
 [![Fusion 360 model](/assets/projects/lego-mcdonalds/screen-shot-2024-01-09-at-3.35.38-am.png)](https://a360.co/3tDwQPh)
+
+![CAD render of the LEGO McDonalds build](/assets/projects/lego-mcdonalds/render-01.png)

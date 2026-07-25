@@ -107,3 +107,5 @@ Sources:
 Technovation, & Instructables. (2019, August 26). *DIY Low Cost Air Hockey table*. Instructables. [https://www.instructables.com/DIY-Low-Cost-Air-Hockey-Table/](https://www.instructables.com/DIY-Low-Cost-Air-Hockey-Table/)
 
 Hendog993. (2020). Youtube_arduino/LEDStrip.ino. Github. [https://github.com/hendog993/Youtube_arduino/blob/master/LEDStrip.ino](https://github.com/hendog993/Youtube_arduino/blob/master/LEDStrip.ino).
+
+![CAD render of the air hockey table](/assets/projects/air-hockey-stadium/render-01.png)
