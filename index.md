@@ -19,7 +19,7 @@ Aspiring industrial designer.
   {% for p in projects %}
   <a class="row" href="{{ p.url | relative_url }}">
     <span class="year">{{ p.year }}</span>
-    <span class="title"><span class="num">{{ forloop.index }}.</span> {{ p.title }}</span>
+    <span class="title">{{ p.title }}</span>
     <span class="desc">{{ p.blurb }}</span>
   </a>
   {% endfor %}
