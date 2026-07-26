@@ -1,10 +1,10 @@
 ---
 title: "Scrap Wood Cutting Board"
 year: "2024"
-blurb: "An end grain cutting board pieced together from scrap wood into a geometric mosaic."
+blurb: "An end grain cutting board made from cherry, maple and walnut scraps."
 ---
 
-This is an end grain cutting board I made from scrap wood offcuts. I cut the scraps into small blocks, arranged them into a geometric mosaic of warm and cool tones, glued them into a larger block, then sliced across the end grain and glued the slices into the final board. I routed a juice groove around the top edge and finished it. The photos show the finished board in the light.
+This is an end grain cutting board I made from scrap wood. I used the triangle scraps left over from my zig zag cutting board and mixed in other scraps, glued them together, then crosscut them and glued them up into the final board. It is made from cherry, maple and walnut. I routed a juice groove around the top edge and finished it.
 
 ![End grain cutting board with a geometric mosaic pattern and a juice groove](/assets/projects/scrap-wood-cutting-board/photo-01.jpg)
 ![Mosaic pattern of warm and cool wood tones](/assets/projects/scrap-wood-cutting-board/photo-02.jpg)

@@ -5,7 +5,7 @@ category: "vex"
 blurb: "Custom U channel funnel pieces I designed to guide game elements into the robot."
 ---
 
-This is a VEX V5 robotics project. I designed a set of U channel funnel pieces that mount to the robot frame and help guide game elements into the intake. The design screenshots show the bent channel with rows of square and slotted holes so it bolts onto the standard VEX frame. The angled tab at the top sets the funnel geometry that channels pieces inward.
+This is a VEX V5 robotics project. I designed a set of U channel funnel pieces that mount to the robot frame and help guide game elements into the intake. These are useful because a standard 3 wide C channel or an angle bar will not fit on the diagonal end for funneling, and the holes on these line up perfectly with the U channel. The CAD shows the bent channel with rows of square and slotted holes so it bolts onto the standard VEX frame.
 
 ![Isometric render of the U channel funnel piece](/assets/projects/robot-u-channel-funnels/design-01.png)
 ![CAD render of the U channel funnel from another angle](/assets/projects/robot-u-channel-funnels/design-02.png)

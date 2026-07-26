@@ -1,10 +1,10 @@
 ---
 title: "Zig Zag Cutting Board"
 year: "2024"
-blurb: "A laminated cutting board with a dark zig zag accent running through light wood strips."
+blurb: "An end grain cutting board in walnut and maple with a zig zag pattern."
 ---
 
-This is a wooden cutting board I made with a repeating zig zag pattern. I laminated light wood strips together with a darker contrasting wood that steps across the board in a zig zag, glued the strips into a block, then flattened, sanded, and finished the board. The photos walk through the glue up on the workbench and the finished board with the pattern showing in the end grain.
+This is an end grain cutting board I made with a zig zag pattern. I glued walnut and maple boards together, cut them at an angle, and squared them off. Then I glued end pieces to it, squared the stocks, and assembled them together in the pattern. Once that was together I crosscut the pieces and assembled them into the final board.
 
 A demonstration video will be added.
 

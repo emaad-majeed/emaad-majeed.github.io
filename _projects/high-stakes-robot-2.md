@@ -5,7 +5,7 @@ category: "vex"
 blurb: "My second VEX V5 competition robot for the High Stakes season, with a wheeled drive, an arm, and a pneumatic system."
 ---
 
-This is High Stakes Robot 2, the second competition robot I built for the VEX V5 High Stakes season under team 38535C. It uses an omni wheel drive base with large red gears on the side, a chain driven arm that lifts over the chassis, and a pneumatic cylinder and air tank for actuated mechanisms. One photo shows it next to the VEX Robotics Competition tournament champions award for the 2024 to 2025 season. The build photos capture it during assembly at home and set up in the workshop.
+This is High Stakes Robot 2, the second competition robot I built for the VEX V5 High Stakes season under team 38535C. It runs an omni wheel drive base with a chain driven arm that lifts over the chassis, and pneumatics for the clamping. At the back of the chassis it carries a two piston top down mobile goal clamp that supported multiple sides for clamping. The wall stake arm is a short armed arm that held the ring by friction fit, driven by a 5.5W motor rather than a piston, and I worked out the 360 degree geometry in Desmos so it could go all the way around, which also let me flip mobile goals with it. One photo shows it next to the VEX Robotics Competition tournament champions award for the 2024 to 2025 season.
 
 ![High Stakes Robot 2 showing the drive base, side gears, and chain driven arm](/assets/projects/high-stakes-robot-2/photo-01.jpg)
 ![Top down view of the robot with the arm, gears, and V5 brain during a build session](/assets/projects/high-stakes-robot-2/photo-02.jpg)

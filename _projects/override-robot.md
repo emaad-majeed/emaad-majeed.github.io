@@ -2,10 +2,12 @@
 title: "Override Robot"
 year: "2025"
 category: "vex"
-blurb: "A VEX V5 robot I designed in CAD with an omni drivetrain, intake, and scoring structure."
+blurb: "A CAD concept for this VEX season built around tight packaging, a low center of gravity, and a 4 bar lift with a free arm."
 ---
 
-This is a VEX V5 competition robot I designed in CAD, named Override. The build uses a mostly black frame with blue accents on an omni wheel drivetrain, a low intake with a mesh conveyor that feeds game pieces up through the robot, and a scoring structure above it driven by motors and gears. The renders show the full robot along with closer views of the intake and internals.
+This is a cadded concept for this year of VEX robotics. The drivetrain is currently 44W on 2.75 inch wheels at 450 RPM. That ratio is good because it sits super low to the ground and keeps a low center of gravity. This season I really emphasize packaging and a low center of gravity, because the lifts are lifting up high.
+
+The lift is the unique part. It is a 4 bar with a free arm attached to the end, so it acts like a dr4b lift but has a ton more functionality. The intake feeds both game pieces through the robot, and then the lift picks them up.
 
 ![CAD render of the full Override robot with its omni drivetrain, intake, and upper scoring structure](/assets/projects/override-robot/design-01.png)
 ![Close CAD render of the intake and internal motors and gearing](/assets/projects/override-robot/design-02.png)
