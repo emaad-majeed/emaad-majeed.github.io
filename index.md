@@ -25,28 +25,4 @@ Aspiring industrial designer.
   {% endfor %}
 </section>
 
-<section class="list">
-  <h2>737 Project</h2>
-  {% assign p737 = site.projects | where: "category", "737" | sort: "year" | reverse %}
-  {% for p in p737 %}
-  <a class="row" href="{{ p.url | relative_url }}">
-    <span class="year">{{ p.year }}</span>
-    <span class="title">{{ p.title }}</span>
-    <span class="desc">{{ p.blurb }}</span>
-  </a>
-  {% endfor %}
-</section>
-
-<section class="list">
-  <h2>Vex Robotics</h2>
-  {% assign pvex = site.projects | where: "category", "vex" | sort: "year" | reverse %}
-  {% for p in pvex %}
-  <a class="row" href="{{ p.url | relative_url }}">
-    <span class="year">{{ p.year }}</span>
-    <span class="title">{{ p.title }}</span>
-    <span class="desc">{{ p.blurb }}</span>
-  </a>
-  {% endfor %}
-</section>
-
 <p class="foot"><a href="{{ '/about/' | relative_url }}">About</a></p>
