@@ -14,5 +14,30 @@
   <main class="wrap">
     {{ content }}
   </main>
+  <script>
+  // Give each project image a visible caption taken from its alt text, so the
+  // writing runs down the page with the images instead of sitting in one block.
+  // Caption is aria-hidden because the alt text already names the image.
+  (function () {
+    document.querySelectorAll('article p').forEach(function (p) {
+      var imgs = p.querySelectorAll('img');
+      if (!imgs.length || p.textContent.trim() !== '') return;
+      var frag = document.createDocumentFragment();
+      imgs.forEach(function (img) {
+        var fig = document.createElement('figure');
+        fig.appendChild(img);
+        var alt = img.getAttribute('alt');
+        if (alt) {
+          var cap = document.createElement('figcaption');
+          cap.textContent = alt;
+          cap.setAttribute('aria-hidden', 'true');
+          fig.appendChild(cap);
+        }
+        frag.appendChild(fig);
+      });
+      p.replaceWith(frag);
+    });
+  })();
+  </script>
 </body>
 </html>
