@@ -68,6 +68,39 @@ a { color: inherit; }
 .row:hover .title { text-decoration: underline; }
 .row .desc { opacity: 0.55; font-size: 0.95rem; display: block; }
 
+/* Selected projects: image thumbnails, 3 per row, name appears on hover */
+.grid {
+  display: grid; grid-template-columns: repeat(3, 1fr);
+  gap: 0.75rem; margin-top: 0.75rem;
+}
+.card {
+  position: relative; display: block; overflow: hidden;
+  aspect-ratio: 4 / 3; border-radius: 8px;
+  background: #0a0a0a; text-decoration: none;
+  border: 1px solid rgba(128,128,128,0.18);
+}
+.card img {
+  width: 100%; height: 100%; object-fit: contain; display: block;
+  margin: 0; border-radius: 0;
+  transition: transform 0.4s ease, opacity 0.3s ease;
+}
+.card:hover img, .card:focus-visible img { transform: scale(1.04); opacity: 0.45; }
+.card-title {
+  position: absolute; left: 0; right: 0; bottom: 0;
+  padding: 0.85rem 0.9rem; font-size: 0.9rem; font-weight: 500;
+  color: #ededed; opacity: 0; transform: translateY(6px);
+  background: linear-gradient(to top, rgba(0,0,0,0.85), rgba(0,0,0,0));
+  transition: opacity 0.3s ease, transform 0.3s ease;
+}
+.card:hover .card-title, .card:focus-visible .card-title { opacity: 1; transform: none; }
+/* touch devices have no hover, so keep the name visible */
+@media (hover: none) { .card-title { opacity: 1; transform: none; } }
+@media (max-width: 34rem) { .grid { grid-template-columns: repeat(2, 1fr); } }
+@media (prefers-reduced-motion: reduce) {
+  .card img, .card-title { transition: none; }
+  .card:hover img { transform: none; }
+}
+
 .foot { margin-top: 3.5rem; opacity: 0.6; }
 
 /* ---- project / post / about pages ---- */

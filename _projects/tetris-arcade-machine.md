@@ -1,6 +1,8 @@
 ---
 title: "Tetris Arcade Machine"
 year: "2025"
+featured: true
+thumb: "/assets/projects/tetris-arcade-machine/design-01.png"
 blurb: "A playable Tetris arcade built on a NeoPixel matrix with a joystick, a rotate button, and a 3D printed and laser engraved cabinet."
 ---
 
