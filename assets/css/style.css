@@ -69,22 +69,23 @@ a { color: inherit; }
 .row .desc { opacity: 0.55; font-size: 0.95rem; display: block; }
 
 /* Selected projects: image thumbnails, 3 per row, name appears on hover */
+/* Grid breaks out wider than the text column so the images read large.
+   No frame, no border: the renders sit straight on the black page. */
 .grid {
   display: grid; grid-template-columns: repeat(3, 1fr);
-  gap: 0.75rem; margin-top: 0.75rem;
+  gap: 1.5rem; margin-top: 1rem;
+  width: min(100vw - 3rem, 62rem);
+  margin-left: 50%; transform: translateX(-50%);
 }
 .card {
-  position: relative; display: block; overflow: hidden;
-  aspect-ratio: 4 / 3; border-radius: 8px;
-  background: #0a0a0a; text-decoration: none;
-  border: 1px solid rgba(128,128,128,0.18);
+  position: relative; display: block; text-decoration: none;
 }
 .card img {
-  width: 100%; height: 100%; object-fit: contain; display: block;
+  width: 100%; height: auto; display: block;
   margin: 0; border-radius: 0;
-  transition: transform 0.4s ease, opacity 0.3s ease;
+  transition: opacity 0.3s ease;
 }
-.card:hover img, .card:focus-visible img { transform: scale(1.04); opacity: 0.45; }
+.card:hover img, .card:focus-visible img { opacity: 0.5; }
 .card-title {
   position: absolute; left: 0; right: 0; bottom: 0;
   padding: 0.85rem 0.9rem; font-size: 0.9rem; font-weight: 500;
