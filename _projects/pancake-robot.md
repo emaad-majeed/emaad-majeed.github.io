@@ -1,6 +1,8 @@
 ---
 title: "Pancake Robot Cooker"
 year: "2024"
+featured: true
+thumb: "/assets/projects/pancake-robot/render-01.png"
 blurb: "A robot that dispenses batter and flips pancakes using stepper motors."
 ---
 

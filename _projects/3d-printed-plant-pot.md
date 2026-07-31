@@ -1,6 +1,8 @@
 ---
 title: "3D Printed Plant Pot"
 year: "2025"
+featured: true
+thumb: "/assets/projects/3d-printed-plant-pot/design-01.png"
 blurb: "A plant pot I designed and 3D printed for a Maker Faire project on a self watering plant."
 ---
 
