@@ -11,9 +11,42 @@ layout: default
 
   {% if page.hero %}
   <div class="hero">
-    <img src="{{ page.hero | relative_url }}" alt="{{ page.hero_alt | default: page.title }}">
+    <img src="{{ page.hero | relative_url }}" alt="{{ page.hero_alt | default: page.title }}"
+         {% if page.hero_w %}width="{{ page.hero_w }}" height="{{ page.hero_h }}"{% endif %}>
   </div>
   {% endif %}
 
   {{ content }}
 </article>
+
+{% if page.hero %}
+<script>
+// Open this page at the hero image rather than the very top. Only on a fresh
+// visit: back and forward navigations keep their own restored position, and we
+// bail the moment the reader scrolls for themselves.
+(function () {
+  if (location.hash) return;
+  var nav = performance.getEntriesByType && performance.getEntriesByType('navigation')[0];
+  if (nav && nav.type !== 'navigate') return;
+
+  var userMoved = false;
+  ['wheel', 'touchstart', 'keydown'].forEach(function (e) {
+    window.addEventListener(e, function () { userMoved = true; }, { once: true, passive: true });
+  });
+
+  function go() {
+    if (userMoved) return;
+    var el = document.querySelector('.hero');
+    if (!el) return;
+    var y = 0, n = el;
+    while (n) { y += n.offsetTop; n = n.offsetParent; }   // layout position, ignores transforms
+    window.scrollTo(0, y);
+  }
+
+  if (document.readyState === 'loading') document.addEventListener('DOMContentLoaded', go);
+  else go();
+  // run again once webfonts settle, since they can change the header height
+  if (document.fonts && document.fonts.ready) document.fonts.ready.then(go);
+})();
+</script>
+{% endif %}

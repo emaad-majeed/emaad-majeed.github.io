@@ -5,6 +5,8 @@ class: "wide"
 featured: true
 thumb: "/assets/projects/tetris-arcade-machine/render-01.png"
 hero: "/assets/projects/tetris-arcade-machine/hero.png"
+hero_w: 2200
+hero_h: 1307
 hero_alt: "Render of the Tetris arcade cabinet with a game in play on the LED matrix"
 blurb: "A playable Tetris arcade built on a NeoPixel matrix with a joystick, a rotate button, and a 3D printed and laser engraved cabinet."
 ---
