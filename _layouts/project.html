@@ -1,12 +1,6 @@
 ---
 layout: default
 ---
-{% if page.hero %}
-<div class="hero">
-  <img src="{{ page.hero | relative_url }}" alt="{{ page.hero_alt | default: page.title }}">
-</div>
-{% endif %}
-
 <a class="back" href="{{ '/' | relative_url }}">&larr; Emaad Majeed</a>
 
 <article>
@@ -14,6 +8,12 @@ layout: default
     <h1>{{ page.title }}</h1>
     {% if page.year %}<span class="year">{{ page.year }}</span>{% endif %}
   </header>
+
+  {% if page.hero %}
+  <div class="hero">
+    <img src="{{ page.hero | relative_url }}" alt="{{ page.hero_alt | default: page.title }}">
+  </div>
+  {% endif %}
 
   {{ content }}
 </article>

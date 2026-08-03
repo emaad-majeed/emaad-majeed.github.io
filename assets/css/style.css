@@ -114,6 +114,7 @@ html, body { overflow-x: hidden; }
   width: 100vw;
   margin-left: calc(50% - 50vw);
   margin-right: calc(50% - 50vw);
+  margin-top: 2.5rem;
   margin-bottom: 3.5rem;
 }
 .hero img {
@@ -121,8 +122,6 @@ html, body { overflow-x: hidden; }
   object-fit: cover; object-position: center;
   display: block; margin: 0; border-radius: 0;
 }
-.wide .wrap { padding-top: 0; }
-.wide .back { margin-bottom: 2.5rem; }
 
 /* section labels, numbered like a design deck */
 .wide article h2 {
