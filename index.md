@@ -10,7 +10,7 @@ class: home
 Aspiring industrial designer.
 
 <section class="list">
-  <h2>Selected Projects</h2>
+  <h2>Select Projects</h2>
   <div class="grid">
   {% assign featured = site.projects | where: "featured", true | sort: "year" | reverse %}
   {% for p in featured %}
