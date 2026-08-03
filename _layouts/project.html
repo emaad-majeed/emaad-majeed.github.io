@@ -30,7 +30,7 @@ layout: default
   if (nav && nav.type !== 'navigate') return;
 
   var userMoved = false;
-  ['wheel', 'touchstart', 'keydown'].forEach(function (e) {
+  ['wheel', 'touchstart', 'keydown', 'mousedown'].forEach(function (e) {
     window.addEventListener(e, function () { userMoved = true; }, { once: true, passive: true });
   });
 
@@ -45,8 +45,10 @@ layout: default
 
   if (document.readyState === 'loading') document.addEventListener('DOMContentLoaded', go);
   else go();
-  // run again once webfonts settle, since they can change the header height
+  // run again once webfonts settle and once everything has loaded, since both
+  // can change the header height and shift where the hero actually sits
   if (document.fonts && document.fonts.ready) document.fonts.ready.then(go);
+  window.addEventListener('load', go);
 })();
 </script>
 {% endif %}
