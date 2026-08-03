@@ -1,6 +1,12 @@
 ---
 layout: default
 ---
+{% if page.hero %}
+<div class="hero">
+  <img src="{{ page.hero | relative_url }}" alt="{{ page.hero_alt | default: page.title }}">
+</div>
+{% endif %}
+
 <a class="back" href="{{ '/' | relative_url }}">&larr; Emaad Majeed</a>
 
 <article>

@@ -104,6 +104,46 @@ a { color: inherit; }
 
 .foot { margin-top: 3.5rem; opacity: 0.6; }
 
+/* ---- industrial design project pages (class: wide) ---- */
+body { overflow-x: hidden; }
+
+/* full bleed hero: breaks out of the text column to the full page width */
+.hero {
+  position: relative; left: 50%; width: 100vw;
+  transform: translateX(-50%);
+  margin: 0 0 3.5rem;
+}
+.hero img {
+  width: 100%; height: auto; max-height: 82vh;
+  object-fit: cover; object-position: center;
+  display: block; margin: 0; border-radius: 0;
+}
+.wide .wrap { padding-top: 0; }
+.wide .back { margin-bottom: 2.5rem; }
+
+/* section labels, numbered like a design deck */
+.wide article h2 {
+  font-size: 0.78rem; font-weight: 500;
+  text-transform: uppercase; letter-spacing: 0.12em; opacity: 0.45;
+  margin: 4.5rem 0 1.25rem; padding-top: 1.5rem;
+  border-top: 1px solid rgba(128,128,128,0.2);
+}
+.wide article h2:first-of-type { margin-top: 3.5rem; }
+
+/* project facts block */
+.meta {
+  display: grid; grid-template-columns: repeat(2, 1fr);
+  gap: 1.5rem 2rem; margin: 2.5rem 0 0; padding: 1.5rem 0;
+  border-top: 1px solid rgba(128,128,128,0.2);
+  border-bottom: 1px solid rgba(128,128,128,0.2);
+}
+.meta dt {
+  font-size: 0.7rem; text-transform: uppercase;
+  letter-spacing: 0.1em; opacity: 0.4;
+}
+.meta dd { margin: 0.4rem 0 0; font-size: 0.95rem; line-height: 1.5; }
+@media (max-width: 34rem) { .meta { grid-template-columns: 1fr; } }
+
 /* ---- project / post / about pages ---- */
 .back {
   display: inline-block; text-decoration: none;
