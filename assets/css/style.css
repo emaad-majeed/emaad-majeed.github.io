@@ -105,13 +105,16 @@ a { color: inherit; }
 .foot { margin-top: 3.5rem; opacity: 0.6; }
 
 /* ---- industrial design project pages (class: wide) ---- */
-body { overflow-x: hidden; }
+html, body { overflow-x: hidden; }
 
-/* full bleed hero: breaks out of the text column to the full page width */
+/* Full bleed hero: breaks out of the text column to the full page width.
+   Uses margins rather than a transform, because the intro animation on
+   .wrap > * animates transform and would override it. */
 .hero {
-  position: relative; left: 50%; width: 100vw;
-  transform: translateX(-50%);
-  margin: 0 0 3.5rem;
+  width: 100vw;
+  margin-left: calc(50% - 50vw);
+  margin-right: calc(50% - 50vw);
+  margin-bottom: 3.5rem;
 }
 .hero img {
   width: 100%; height: auto; max-height: 82vh;
