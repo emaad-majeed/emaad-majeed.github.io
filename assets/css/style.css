@@ -18,31 +18,6 @@ body {
 
 .home .wrap { padding-top: 16vh; }
 
-/* Intro animation: staggered fade in up on each top level block.
-   Pure CSS, no JS. Animates only opacity and transform, so it stays
-   on the GPU and does not trigger layout. animation-fill-mode both
-   holds the hidden state during the delay so nothing flashes first. */
-@keyframes fade-in-up {
-  from { opacity: 0; transform: translateY(20px); }
-  to   { opacity: 1; transform: translateY(0); }
-}
-.wrap > * {
-  animation: fade-in-up 0.6s cubic-bezier(0.16, 1, 0.3, 1) both;
-  will-change: transform, opacity;
-}
-.wrap > *:nth-child(1) { animation-delay: 0s; }
-.wrap > *:nth-child(2) { animation-delay: 0.06s; }
-.wrap > *:nth-child(3) { animation-delay: 0.12s; }
-.wrap > *:nth-child(4) { animation-delay: 0.18s; }
-.wrap > *:nth-child(5) { animation-delay: 0.24s; }
-.wrap > *:nth-child(6) { animation-delay: 0.30s; }
-.wrap > *:nth-child(7) { animation-delay: 0.36s; }
-.wrap > *:nth-child(n+8) { animation-delay: 0.42s; }
-
-@media (prefers-reduced-motion: reduce) {
-  .wrap > * { animation: none; }
-}
-
 h1 {
   font-size: clamp(2rem, 6vw, 3rem);
   letter-spacing: -0.02em;
