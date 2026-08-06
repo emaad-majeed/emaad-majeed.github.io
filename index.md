@@ -34,4 +34,18 @@ Aspiring industrial designer.
   {% endfor %}
 </section>
 
+<section class="list">
+  <h2>Press</h2>
+  <a class="row" href="https://theoracle.glenbrook225.org/news/2026/02/27/vex-robotics-builds-talent-relationships-from-various-competitions/" target="_blank" rel="noopener noreferrer">
+    <span class="year">2026</span>
+    <span class="title">VEX robotics builds talent, relationships from various competitions</span>
+    <span class="desc">The Oracle, on the invitational tournament South hosted for 17 teams from around Chicago.</span>
+  </a>
+  <a class="row" href="https://theoracle.glenbrook225.org/top-stories/web-exclusives/2025/03/10/souths-vex-robotics-team-qualifies-for-worlds-competition/" target="_blank" rel="noopener noreferrer">
+    <span class="year">2025</span>
+    <span class="title">South's VEX robotics team qualifies for Worlds competition</span>
+    <span class="desc">The Oracle, on our team reaching the World Championship in Dallas for the first time in school history.</span>
+  </a>
+</section>
+
 <p class="foot"><a href="{{ '/about/' | relative_url }}">About</a></p>
