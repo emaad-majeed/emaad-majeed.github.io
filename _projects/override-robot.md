@@ -2,6 +2,10 @@
 title: "Override Robot"
 year: "2025"
 category: "vex"
+featured: true
+thumb: "/assets/projects/override-robot/thumb.png"
+featured_order: 4
+tagline: "vex robot concept"
 blurb: "A CAD concept for this VEX season built around tight packaging, a low center of gravity, and a 4 bar lift with a free arm."
 ---
 
