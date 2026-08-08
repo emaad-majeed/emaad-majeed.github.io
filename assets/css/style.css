@@ -43,9 +43,9 @@ a { color: inherit; }
 .row:hover .title { text-decoration: underline; }
 .row .desc { opacity: 0.55; font-size: 0.95rem; display: block; }
 
-/* Selected projects: image thumbnails, 3 per row, name appears on hover */
-/* Grid breaks out wider than the text column so the images read large.
-   No frame, no border: the renders sit straight on the black page. */
+/* Select projects: one image per row, stacked. Breaks out wider than the
+   text column so the images read large. No frame, no border: the renders
+   sit straight on the black page. Name appears on hover. */
 .grid {
   display: grid; grid-template-columns: 1fr;
   gap: 3rem; margin-top: 1.25rem;
