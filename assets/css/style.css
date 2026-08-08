@@ -71,6 +71,26 @@ a { color: inherit; }
 .card:hover .card-title, .card:focus-visible .card-title { opacity: 1; transform: none; }
 /* touch devices have no hover, so keep the name visible */
 @media (hover: none) { .card-title { opacity: 1; transform: none; } }
+
+/* Narrow screens: drop the overlay and set the name under the image instead,
+   where there is room to read it. */
+.card-label { display: none; }
+@media (max-width: 40rem) {
+  .card-title { display: none; }
+  .card-label {
+    display: block; text-align: center;
+    padding: 0.9rem 0.5rem 0;
+  }
+  .card-label .t {
+    display: block; font-weight: 600; font-size: 1.05rem;
+    letter-spacing: -0.01em;
+  }
+  .card-label .s {
+    display: block; margin-top: 0.15rem;
+    font-size: 0.95rem; opacity: 0.55;
+  }
+  .grid { gap: 2.5rem; }
+}
 @media (prefers-reduced-motion: reduce) {
   .card img, .card-title { transition: none; }
   .card:hover img { transform: none; }

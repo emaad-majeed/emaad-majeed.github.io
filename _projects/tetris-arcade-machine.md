@@ -5,6 +5,7 @@ class: "wide"
 featured: true
 thumb: "/assets/projects/tetris-arcade-machine/thumb.png"
 featured_order: 1
+tagline: "arcade cabinet"
 hero: "/assets/projects/tetris-arcade-machine/hero.png"
 hero_w: 2200
 hero_h: 1307

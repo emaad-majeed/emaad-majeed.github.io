@@ -17,6 +17,10 @@ Aspiring industrial designer.
     <a class="card" href="{{ p.url | relative_url }}">
       <img src="{{ p.thumb | relative_url }}" alt="{{ p.title }}" loading="lazy">
       <span class="card-title">{{ p.title }}</span>
+      <span class="card-label">
+        <span class="t">{{ p.title }}</span>
+        {% if p.tagline %}<span class="s">{{ p.tagline }}</span>{% endif %}
+      </span>
     </a>
   {% endfor %}
   </div>
