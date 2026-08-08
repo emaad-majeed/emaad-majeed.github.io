@@ -90,7 +90,8 @@ a { color: inherit; }
     display: block; margin-top: 0.15rem;
     font-size: 0.95rem; opacity: 0.55;
   }
-  .grid { gap: 2.5rem; }
+  /* run the thumbnails edge to edge so they are as large as the screen allows */
+  .grid { width: 100vw; gap: 2.5rem; }
 }
 @media (prefers-reduced-motion: reduce) {
   .card img, .card-title { transition: none; }
