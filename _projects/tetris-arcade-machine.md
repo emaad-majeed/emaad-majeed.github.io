@@ -3,7 +3,8 @@ title: "Tetris Arcade Machine"
 year: "2025"
 class: "wide"
 featured: true
-thumb: "/assets/projects/tetris-arcade-machine/render-01.png"
+thumb: "/assets/projects/tetris-arcade-machine/thumb.png"
+featured_order: 1
 hero: "/assets/projects/tetris-arcade-machine/hero.png"
 hero_w: 2200
 hero_h: 1307

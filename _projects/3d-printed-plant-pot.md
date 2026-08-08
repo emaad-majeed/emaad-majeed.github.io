@@ -4,6 +4,7 @@ year: "2025"
 class: "wide"
 featured: true
 thumb: "/assets/projects/3d-printed-plant-pot/design-01.png"
+featured_order: 2
 hero: "/assets/projects/3d-printed-plant-pot/hero.png"
 hero_w: 2140
 hero_h: 1272

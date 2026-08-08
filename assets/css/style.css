@@ -47,8 +47,8 @@ a { color: inherit; }
 /* Grid breaks out wider than the text column so the images read large.
    No frame, no border: the renders sit straight on the black page. */
 .grid {
-  display: grid; grid-template-columns: repeat(3, 1fr);
-  gap: 1.5rem; margin-top: 1rem;
+  display: grid; grid-template-columns: 1fr;
+  gap: 3rem; margin-top: 1.25rem;
   width: min(100vw - 3rem, 62rem);
   margin-left: 50%; transform: translateX(-50%);
 }
@@ -71,7 +71,6 @@ a { color: inherit; }
 .card:hover .card-title, .card:focus-visible .card-title { opacity: 1; transform: none; }
 /* touch devices have no hover, so keep the name visible */
 @media (hover: none) { .card-title { opacity: 1; transform: none; } }
-@media (max-width: 34rem) { .grid { grid-template-columns: repeat(2, 1fr); } }
 @media (prefers-reduced-motion: reduce) {
   .card img, .card-title { transition: none; }
   .card:hover img { transform: none; }

@@ -12,7 +12,7 @@ Aspiring industrial designer.
 <section class="list">
   <h2>Select Projects</h2>
   <div class="grid">
-  {% assign featured = site.projects | where: "featured", true | sort: "year" | reverse %}
+  {% assign featured = site.projects | where: "featured", true | sort: "featured_order" %}
   {% for p in featured %}
     <a class="card" href="{{ p.url | relative_url }}">
       <img src="{{ p.thumb | relative_url }}" alt="{{ p.title }}" loading="lazy">
