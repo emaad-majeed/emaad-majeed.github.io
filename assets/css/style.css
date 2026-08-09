@@ -141,6 +141,14 @@ html, body { overflow-x: hidden; }
 .meta dd { margin: 0.4rem 0 0; font-size: 0.95rem; line-height: 1.5; }
 @media (max-width: 34rem) { .meta { grid-template-columns: 1fr; } }
 
+/* byline at the foot of every project page */
+.byline {
+  margin-top: 4.5rem; padding-top: 1.5rem;
+  border-top: 1px solid rgba(128,128,128,0.2);
+  font-size: 0.9rem; opacity: 0.5;
+}
+.byline p { margin: 0; }
+
 /* ---- project / post / about pages ---- */
 .back {
   display: inline-block; text-decoration: none;
