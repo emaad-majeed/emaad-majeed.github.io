@@ -30,7 +30,7 @@ Aspiring industrial designer.
   <h2>All Projects</h2>
   {% assign projects = site.projects | sort: "year" | reverse %}
   {% for p in projects %}
-  <a class="row" href="{{ p.url | relative_url }}">
+  <a class="row" href="{% if p.external %}{{ p.external }}{% else %}{{ p.url | relative_url }}{% endif %}"{% if p.external %} target="_blank" rel="noopener noreferrer"{% endif %}>
     <span class="year">{{ p.year }}</span>
     <span class="title">{{ p.title }}</span>
     <span class="desc">{{ p.blurb }}</span>
