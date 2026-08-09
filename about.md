@@ -4,10 +4,11 @@ title: "About"
 permalink: /about/
 ---
 
-I am a Glenbrook South SELC Engineer with a passion of solving problems, digital designing, electronics and cooking. Throughout my SELC career I have made many projects involving Fusion 360, electronics, programming, woodworking and laser cutting.
+{% assign shot = site.static_files | where_exp: "f", "f.path contains '/assets/about/headshot'" | first %}
+{% if shot %}<div class="headshot"><img src="{{ shot.path | relative_url }}" alt="Emaad Majeed"></div>{% endif %}
 
-## Contact
+<p class="whoami">Emaad Majeed</p>
 
-Glenview, IL &mdash; **Glenbrook South High School**
+<p class="contact"><a href="mailto:emaadmajeed@outlook.com">emaadmajeed@outlook.com</a></p>
 
-[emaadmajeed@outlook.com](mailto:emaadmajeed@outlook.com)
+I am an aspiring industrial designer at Glenbrook South High School in Glenview, Illinois, with a passion for solving problems, digital design, electronics and cooking. Across my projects I have worked in Fusion 360 along with electronics, programming, woodworking and laser cutting.

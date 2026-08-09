@@ -141,6 +141,15 @@ html, body { overflow-x: hidden; }
 .meta dd { margin: 0.4rem 0 0; font-size: 0.95rem; line-height: 1.5; }
 @media (max-width: 34rem) { .meta { grid-template-columns: 1fr; } }
 
+/* about page: small headshot, then name, email, description */
+.headshot { margin: 0 0 1.5rem; }
+.headshot img {
+  width: 120px; height: 120px; object-fit: cover; object-position: center top;
+  border-radius: 8px; display: block; margin: 0;
+}
+.whoami { font-weight: 600; font-size: 1.15rem; margin: 0 0 0.3rem; }
+.contact { margin: 0 0 2rem; }
+
 /* byline at the foot of every project page */
 .byline {
   margin-top: 4.5rem; padding-top: 1.5rem;
