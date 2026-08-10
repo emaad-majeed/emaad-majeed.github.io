@@ -11,8 +11,29 @@ permalink: /about/
 
 <p class="contact"><a href="mailto:emaadmajeed@outlook.com">emaadmajeed@outlook.com</a></p>
 
-Emaad Majeed is an aspiring industrial designer from the Chicagoland area. He is drawn to problems where how a thing looks and how it works have to be solved at the same time, and he would rather finish a project as an object he can hand to someone than as a drawing.
+Emaad Majeed is an aspiring industrial designer from the Chicagoland area. He is a student at Glenbrook South High School in Glenview, Illinois, where he competes in VEX Robotics with team 38535X.
 
-His work runs from a playable Tetris arcade cabinet and a self watering plant pot to VEX V5 competition robots, a homemade Boeing 737 cockpit and end grain cutting boards. He designs in Fusion 360 and builds with laser cutting and engraving, 3D printing, woodworking, electronics and C++, carrying a project from the first sketches through CAD to something that actually runs.
+## Skills
 
-He is a student at Glenbrook South High School in Glenview, Illinois, where he competes in VEX Robotics with team 38535X.
+<dl class="meta skills">
+  <div>
+    <dt>Design</dt>
+    <dd>CAD modeling, concept sketching, design for laser cutting, design for 3D printing, exploded assembly views, flat pattern layout, interface design, iterative prototyping, rendering, technical drawing, vector artwork</dd>
+  </div>
+  <div>
+    <dt>Electronics</dt>
+    <dd>Analog input reading, button debouncing, distance sensors, inertial sensors, LCD displays, LED matrices, microcontrollers, motor control, NeoPixel addressable LEDs, odometry, optical sensors, PID tuning, pneumatics and pistons, resistors, rotation sensors, servo motors, soldering, stepper motors, switch wiring and harnesses, V5 smart motors</dd>
+  </div>
+  <div>
+    <dt>Fabrication</dt>
+    <dd>3D printing, bandsaw, CNC machining, dado joinery, Dremel, drilling, end grain lamination, glue up and clamping, laser cutting, laser engraving, miter saw, sanding and finishing, spray painting, table saw, tab and slot construction, vinyl and sticker printing, woodworking</dd>
+  </div>
+  <div>
+    <dt>Materials</dt>
+    <dd>Acrylic, aluminum, carbon fiber, cherry, Delrin, foam, maple, padauk, plywood, polycarbonate, walnut</dd>
+  </div>
+  <div>
+    <dt>Software</dt>
+    <dd>Arduino, Autodesk Fusion 360, C++, Desmos, FastLED, Git and GitHub, LemLib, Microsoft Flight Simulator 2020, PROS, TinkerCad</dd>
+  </div>
+</dl>
