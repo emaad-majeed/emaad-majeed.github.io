@@ -2,14 +2,10 @@
 permalink: /robots.txt
 sitemap: false
 ---
-# Everything here is open. Every crawler, every path, no restrictions.
-# Search engines, archives and AI crawlers are all welcome.
-
 User-agent: *
 Allow: /
 Disallow:
 
-# Search
 User-agent: Googlebot
 Allow: /
 
@@ -34,7 +30,6 @@ Allow: /
 User-agent: PetalBot
 Allow: /
 
-# AI and dataset crawlers
 User-agent: GPTBot
 Allow: /
 
@@ -98,7 +93,6 @@ Allow: /
 User-agent: omgili
 Allow: /
 
-# Link previews and social cards
 User-agent: facebookexternalhit
 Allow: /
 
@@ -117,7 +111,6 @@ Allow: /
 User-agent: WhatsApp
 Allow: /
 
-# SEO and archival
 User-agent: AhrefsBot
 Allow: /
 
