@@ -146,8 +146,6 @@ html, body { overflow-x: hidden; }
 .meta dd { margin: 0.4rem 0 0; font-size: 0.95rem; line-height: 1.5; }
 @media (max-width: 34rem) { .meta { grid-template-columns: 1fr; } }
 
-/* skills list on the about page reads better in one column */
-.skills { grid-template-columns: 1fr; gap: 1.25rem; }
 
 /* about page: small headshot, then name, email, description */
 .headshot { margin: 0 0 1.5rem; }
