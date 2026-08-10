@@ -11,4 +11,8 @@ permalink: /about/
 
 <p class="contact"><a href="mailto:emaadmajeed@outlook.com">emaadmajeed@outlook.com</a></p>
 
-I am an aspiring industrial designer at Glenbrook South High School in Glenview, Illinois, with a passion for solving problems, digital design, electronics and cooking. Across my projects I have worked in Fusion 360 along with electronics, programming, woodworking and laser cutting.
+Emaad Majeed is an aspiring industrial designer from the Chicagoland area. He is drawn to problems where how a thing looks and how it works have to be solved at the same time, and he would rather finish a project as an object he can hand to someone than as a drawing.
+
+His work runs from a playable Tetris arcade cabinet and a self watering plant pot to VEX V5 competition robots, a homemade Boeing 737 cockpit and end grain cutting boards. He designs in Fusion 360 and builds with laser cutting and engraving, 3D printing, woodworking, electronics and C++, carrying a project from the first sketches through CAD to something that actually runs.
+
+He is a student at Glenbrook South High School in Glenview, Illinois, where he competes in VEX Robotics with team 38535X.
