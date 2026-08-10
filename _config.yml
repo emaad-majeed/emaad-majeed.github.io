@@ -1,10 +1,13 @@
 # Site settings — minimal, custom layouts (no theme).
 title: Emaad Majeed
-description: Aspiring industrial designer — portfolio
+description: Portfolio of Emaad Majeed, aspiring industrial designer
 url: "https://emaadmajeed.com"
 baseurl: ""
 
 markdown: kramdown
+
+plugins:
+  - jekyll-sitemap
 
 # Content collections. Each project is one Markdown file that becomes its own page.
 collections:
