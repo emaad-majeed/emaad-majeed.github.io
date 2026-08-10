@@ -7,7 +7,7 @@ class: home
 
 # Emaad Majeed
 
-Aspiring industrial designer.
+<p class="tagline"><a href="{{ '/about/' | relative_url }}">Aspiring industrial designer.</a></p>
 
 <section class="list">
   <h2>Select Projects</h2>

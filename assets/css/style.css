@@ -27,6 +27,11 @@ h1 {
 .muted { opacity: 0.6; }
 a { color: inherit; }
 
+/* tagline links to the about page but keeps the look of plain text */
+.tagline { margin: 1.1rem 0; }
+.tagline a { text-decoration: none; }
+.tagline a:hover, .tagline a:focus-visible { text-decoration: underline; }
+
 /* ---- home lists (projects, writing) ---- */
 .list { margin-top: 3.5rem; }
 .list h2 {
