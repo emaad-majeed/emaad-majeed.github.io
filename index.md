@@ -53,3 +53,5 @@ class: home
 </section>
 
 <p class="foot"><a href="{{ '/about/' | relative_url }}">About</a></p>
+
+<p class="copyright">&copy; Emaad Majeed</p>

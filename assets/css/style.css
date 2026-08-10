@@ -105,6 +105,10 @@ a { color: inherit; }
 
 .foot { margin-top: 3.5rem; opacity: 0.6; }
 
+.copyright { margin-top: 3.5rem; opacity: 0.35; font-size: 0.85rem; }
+/* on the home page it sits right under the About link */
+.foot + .copyright { margin-top: 0.6rem; }
+
 /* ---- industrial design project pages (class: wide) ---- */
 html, body { overflow-x: hidden; }
 
