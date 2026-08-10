@@ -18,7 +18,7 @@ Emaad Majeed is an aspiring industrial designer from the Chicagoland area. He is
 <dl class="meta skills">
   <div>
     <dt>Design</dt>
-    <dd>CAD modeling, concept sketching, design for laser cutting, design for 3D printing, exploded assembly views, flat pattern layout, interface design, iterative prototyping, rendering, technical drawing, vector artwork</dd>
+    <dd>CAD modeling, concept sketching, design for 3D printing, design for laser cutting, exploded assembly views, flat pattern layout, interface design, iterative prototyping, rendering, technical drawing, vector artwork</dd>
   </div>
   <div>
     <dt>Electronics</dt>
@@ -26,7 +26,7 @@ Emaad Majeed is an aspiring industrial designer from the Chicagoland area. He is
   </div>
   <div>
     <dt>Fabrication</dt>
-    <dd>3D printing, bandsaw, CNC machining, dado joinery, Dremel, drilling, end grain lamination, glue up and clamping, laser cutting, laser engraving, miter saw, sanding and finishing, spray painting, table saw, tab and slot construction, vinyl and sticker printing, woodworking</dd>
+    <dd>3D printing, bandsaw, CNC machining, dado joinery, Dremel, drilling, end grain lamination, glue up and clamping, laser cutting, laser engraving, miter saw, sanding and finishing, spray painting, tab and slot construction, table saw, vinyl and sticker printing, woodworking</dd>
   </div>
   <div>
     <dt>Materials</dt>
