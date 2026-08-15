@@ -1,6 +1,14 @@
 ---
 title: "Multistaging Water Rocket"
 year: "2025"
+featured: true
+thumb: "/assets/projects/water-rocket/thumb.png"
+featured_order: 6
+tagline: "multistage water rocket"
+hero: "/assets/projects/water-rocket/hero.png"
+hero_w: 2140
+hero_h: 1204
+hero_alt: "Render of the rocket at stage separation, the upper stage lifting off the coupler"
 blurb: "A multistage water-propelled rocket built for Maker Faire 2025 using air and water pressure."
 ---
 
@@ -42,6 +50,11 @@ Research:
 ![Water rocket sketch](/assets/projects/water-rocket/water-rocket-sketch.png)
 
 ![3D model](/assets/projects/water-rocket/3d-model.png)
+
+![The lower stage standing beside the launch controller](/assets/projects/water-rocket/render-01.png)
+![Stage separation seen from below, with the upper stage nozzle clear of the coupler](/assets/projects/water-rocket/render-02.png)
+![Close view of the coupler collar and its retaining clips](/assets/projects/water-rocket/render-03.png)
+![The launch controller enclosure](/assets/projects/water-rocket/render-04.png)
 
 [TinkerCad](https://www.tinkercad.com/things/elPIuS9y1Pw-maker-faire-2025/editel?returnTo=https%3A%2F%2Fwww.tinkercad.com%2Fdashboard%2Fdesigns%2Fcircuits&sharecode=bLE5LTWjfZFG1QfULEZQAYKS4VibtDNCHDa5rSSaP3Y)
 
