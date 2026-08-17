@@ -6,10 +6,11 @@ thumb: "/assets/projects/water-rocket/thumb.png"
 featured_order: 6
 tagline: "multistage water rocket"
 hero: "/assets/projects/water-rocket/hero.png"
-hero_w: 2140
-hero_h: 1204
-hero_alt: "Render of the rocket at stage separation, the upper stage lifting off the coupler"
-blurb: "A multistage water-propelled rocket built for Maker Faire 2025 using air and water pressure."
+hero_w: 419
+hero_h: 494
+hero_portrait: true
+hero_alt: "Two of us standing beside the finished rocket on its launch stand outside the school"
+blurb: "A multistage water propelled rocket built for Maker Faire 2025 using air and water pressure."
 ---
 
 For the Maker Faire 2025, we designed and created a water rocket. The group members of our project were: [Emaad Majeed](https://emaadmajeedengineering.com/makerfaire-2025-multistaging-water-rocket/) – Team Manager, Suleiman Mohiuddin, and [Jay Kim](https://jayyoungkim.wordpress.com/maker-faire-2025/). We used multiple principles of chemistry while also incorporating our engineering skills to accomplish this project. We wanted to make something innovative, creative, and fun that we would all enjoy doing. All of our documentation can be found in our google drive folder (linked below).
@@ -55,6 +56,7 @@ Research:
 ![Stage separation seen from below, with the upper stage nozzle clear of the coupler](/assets/projects/water-rocket/render-02.png)
 ![Close view of the coupler collar and its retaining clips](/assets/projects/water-rocket/render-03.png)
 ![The launch controller enclosure](/assets/projects/water-rocket/render-04.png)
+![Render of the rocket at stage separation, the upper stage lifting off the coupler](/assets/projects/water-rocket/render-05.png)
 
 [TinkerCad](https://www.tinkercad.com/things/elPIuS9y1Pw-maker-faire-2025/editel?returnTo=https%3A%2F%2Fwww.tinkercad.com%2Fdashboard%2Fdesigns%2Fcircuits&sharecode=bLE5LTWjfZFG1QfULEZQAYKS4VibtDNCHDa5rSSaP3Y)
 
@@ -71,8 +73,6 @@ Final Prototype
 ![Final prototype](/assets/projects/water-rocket/image.png)
 
 ![Final prototype detail](/assets/projects/water-rocket/image-1.png)
-
-![Final prototype detail](/assets/projects/water-rocket/image-2.png)
 
 **Evaluate Solution:**
 

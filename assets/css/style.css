@@ -127,6 +127,21 @@ html, body { overflow-x: hidden; }
   display: block; margin: 0; border-radius: 0;
 }
 
+/* Portrait hero: a tall photo blown out to the full page width would tower
+   over the reader and go soft, so keep it centered at its own size instead.
+   The image sits at its natural width, never upscaled, and only shrinks once
+   the screen is narrower than the photo. */
+.hero.portrait {
+  width: auto;
+  margin-left: auto;
+  margin-right: auto;
+}
+.hero.portrait img {
+  width: auto;
+  max-width: 100%;
+  margin: 0 auto;
+}
+
 /* section labels, numbered like a design deck */
 .wide article h2 {
   font-size: 0.78rem; font-weight: 500;

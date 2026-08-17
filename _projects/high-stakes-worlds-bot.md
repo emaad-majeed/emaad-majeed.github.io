@@ -1,6 +1,14 @@
 ---
 title: "High Stakes Worlds Bot"
 year: "2025"
+featured: true
+thumb: "/assets/projects/high-stakes-worlds-bot/thumb.png"
+featured_order: 7
+tagline: "vex worlds robot"
+hero: "/assets/projects/high-stakes-worlds-bot/hero.png"
+hero_w: 2140
+hero_h: 1204
+hero_alt: "Close render of the wall stake arm raised with a ring resting at the top"
 category: "vex"
 blurb: "The full VEX V5 robot I designed and built for the High Stakes World Championship."
 ---

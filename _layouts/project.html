@@ -10,7 +10,7 @@ layout: default
   </header>
 
   {% if page.hero %}
-  <div class="hero">
+  <div class="hero{% if page.hero_portrait %} portrait{% endif %}">
     <img src="{{ page.hero | relative_url }}" alt="{{ page.hero_alt | default: page.title }}"
          {% if page.hero_w %}width="{{ page.hero_w }}" height="{{ page.hero_h }}"{% endif %}>
   </div>
