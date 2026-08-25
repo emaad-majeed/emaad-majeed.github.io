@@ -21,7 +21,7 @@ defaults:
     values: { layout: "project" }
 
 exclude:
-  - CLAUDE.md
+  - AGENTS.md
   - Gemfile
   - Gemfile.lock
   - README.md

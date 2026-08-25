@@ -203,7 +203,7 @@ Open the file. Confirm it is what its name claims.
   gives no hook for server errors. It is there for a future host.
 - Every project page ends with a byline from `_layouts/project.html`. The home
   and about pages end with a copyright line.
-- `README.md` is in the `exclude:` list, so it is not published. `CLAUDE.md`
+- `README.md` is in the `exclude:` list, so it is not published. `AGENTS.md`
   should stay excluded too.
 
 ---

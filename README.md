@@ -5,13 +5,10 @@ Jekyll, hosted on GitHub Pages.
 
 **Live:** https://emaadmajeed.com
 
-> Making changes with an AI assistant? Read [CLAUDE.md](CLAUDE.md) first. It
-> covers the writing conventions, the front matter rules and the traps that
-> are not obvious from the code.
-
 ## Structure
 
 ```
+AGENTS.md              conventions, front matter rules, gotchas
 _config.yml            site settings, collection config, plugins
 index.md               home page: Select Projects, All Projects, Press
 about.md               bio, headshot, skills
