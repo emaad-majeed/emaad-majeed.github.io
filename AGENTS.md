@@ -208,22 +208,6 @@ Open the file. Confirm it is what its name claims.
 
 ---
 
-## Known loose ends
-
-- **Zig Zag Cutting Board** still says "A demonstration video will be added".
-  The clip was never uploaded to YouTube. Either upload and embed it, or remove
-  that line.
-- **Water rocket** page is still in the older documentation format (bold labels,
-  Google Drive links) rather than the numbered industrial design format used by
-  Tetris and the plant pot.
-- **VEX project descriptions** were reviewed and corrected up to roughly item 32
-  of a 71 item list. The 737 panel pages further down that list were never
-  reviewed by the owner, so treat their details as unverified drafts.
-- The **byline** says "industrial designer" while the About page says "aspiring
-  industrial designer".
-
----
-
 ## macOS specific trap
 
 If `git` suddenly fails with "You have not agreed to the Xcode license
