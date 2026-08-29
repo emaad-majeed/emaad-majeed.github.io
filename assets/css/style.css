@@ -205,6 +205,9 @@ html, body { overflow-x: hidden; }
 .tetris-layout .fab-image-bottom-two { grid-column: 2; grid-row: 2; }
 .tetris-layout .fab-image-bottom-three { grid-column: 3; grid-row: 2; }
 .tetris-layout .fab-image-bottom-four { grid-column: 4; grid-row: 2; }
+@media (min-width: 40.01rem) {
+  .tetris-layout .fab-step { margin-top: calc(1.25rem + 0.75in); }
+}
 @media (max-width: 40rem) {
   .tetris-layout .project-step {
     display: block;
