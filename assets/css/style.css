@@ -163,6 +163,7 @@ html, body { overflow-x: hidden; }
 }
 .tetris-layout .step-copy,
 .tetris-layout .step-images { min-width: 0; }
+.tetris-layout .process-sketch { width: 60%; }
 .tetris-layout .step-copy > :first-child,
 .tetris-layout .step-images > :first-child { margin-top: 0; }
 .tetris-layout .project-step figure { margin: 0 0 3rem; }

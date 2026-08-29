@@ -27,11 +27,15 @@ A working Tetris arcade machine in a bartop cabinet. The game runs on a NeoPixel
 
 I started from the classic upright arcade silhouette and worked it down to something that could sit on a table. The sketches explore the profile: how far the screen leans back, how deep the control shelf sticks out, and where the marquee sits above the display. The stepped side profile came out of those passes, because it keeps the screen angled toward the player while letting the whole machine stay small.
 
+<figure class="process-sketch">
+  <img src="/assets/projects/tetris-arcade-machine/sketches.png" alt="Sketch studies working through the cabinet profile, screen angle and control shelf">
+  <figcaption aria-hidden="true">Sketch studies working through the cabinet profile, screen angle and control shelf</figcaption>
+</figure>
+
 </div>
 <div class="step-images" markdown="1">
 
 ![Line sketch of the arcade cabinet in three quarter view](/assets/projects/tetris-arcade-machine/sketch-icon.png)
-![Sketch studies working through the cabinet profile, screen angle and control shelf](/assets/projects/tetris-arcade-machine/sketches.png)
 
 </div>
 </div>
