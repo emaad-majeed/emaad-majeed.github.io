@@ -78,7 +78,6 @@ The playfield is a NeoPixel matrix sitting behind the screen opening. Raw, the i
 </div>
 <div class="step-images" markdown="1">
 
-![NeoPixel matrix lit up during testing](/assets/projects/tetris-arcade-machine/photo-09.jpg)
 ![Wiring behind the panel connecting the matrix and the controls](/assets/projects/tetris-arcade-machine/photo-10.jpg)
 ![Diffuser film laid over the matrix](/assets/projects/tetris-arcade-machine/photo-11.jpg)
 ![The same display with the film in place, showing how it evens out each pixel](/assets/projects/tetris-arcade-machine/photo-12.jpg)
