@@ -226,7 +226,8 @@ html, body { overflow-x: hidden; }
 .tetris-layout .electronics-image-three { grid-column: 3; grid-row: 1; }
 .tetris-layout .electronics-image-side { grid-column: 4; grid-row: 1; }
 @media (min-width: 40.01rem) {
-  .tetris-layout .fab-step { margin-top: calc(1.25rem + 1.75in); }
+  .tetris-layout .fab-step,
+  .tetris-layout .electronics-step { margin-top: calc(1.25rem + 1.75in); }
 }
 @media (max-width: 40rem) {
   .tetris-layout .project-step {
