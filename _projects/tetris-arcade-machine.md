@@ -108,20 +108,33 @@ The assembly was flattened into a single cut file. Every panel carries tabs and 
 </div>
 </div>
 
-<div class="project-step" markdown="1">
+<div class="project-step electronics-step" markdown="1">
+<div class="electronics-content" markdown="1">
 <div class="step-copy" markdown="1">
 
 The playfield is a NeoPixel matrix sitting behind the screen opening. Raw, the individual LEDs read as bright points rather than clean blocks, so I put a diffuser film over the face. That spreads each pixel into an even square and makes the stack of tetrominoes read properly from a normal viewing distance. Behind the panel the matrix is wired back to the board along with the joystick and the rotate button.
 
 </div>
-<div class="step-images" markdown="1">
+<div class="electronics-images" markdown="1">
 
-![Wiring behind the panel connecting the matrix and the controls](/assets/projects/tetris-arcade-machine/photo-10.jpg)
-![Diffuser film laid over the matrix](/assets/projects/tetris-arcade-machine/photo-11.jpg)
-![The same display with the film in place, showing how it evens out each pixel](/assets/projects/tetris-arcade-machine/photo-12.jpg)
-![Working through a NeoPixel programming exercise](/assets/projects/tetris-arcade-machine/photo-13.jpg)
-
+<figure class="electronics-image electronics-image-one">
+  <img src="/assets/projects/tetris-arcade-machine/photo-10.jpg" alt="Wiring behind the panel connecting the matrix and the controls">
+  <figcaption aria-hidden="true">Wiring behind the panel connecting the matrix and the controls</figcaption>
+</figure>
+<figure class="electronics-image electronics-image-two">
+  <img src="/assets/projects/tetris-arcade-machine/photo-11.jpg" alt="Diffuser film laid over the matrix">
+  <figcaption aria-hidden="true">Diffuser film laid over the matrix</figcaption>
+</figure>
+<figure class="electronics-image electronics-image-three">
+  <img src="/assets/projects/tetris-arcade-machine/photo-12.jpg" alt="The same display with the film in place, showing how it evens out each pixel">
+  <figcaption aria-hidden="true">The same display with the film in place, showing how it evens out each pixel</figcaption>
+</figure>
 </div>
+</div>
+<figure class="electronics-image electronics-image-side">
+  <img src="/assets/projects/tetris-arcade-machine/photo-13.jpg" alt="Working through a NeoPixel programming exercise">
+  <figcaption aria-hidden="true">Working through a NeoPixel programming exercise</figcaption>
+</figure>
 </div>
 
 <div class="project-step" markdown="1">
