@@ -43,18 +43,30 @@ I started from the classic upright arcade silhouette and worked it down to somet
 </div>
 </div>
 
-<div class="project-step" markdown="1">
+<div class="project-step cad-step" markdown="1">
 <div class="step-copy" markdown="1">
 
 I took the chosen profile into Fusion 360 and built the cabinet as a set of flat panels that interlock. Modeling it as an assembly meant I could check that the screen opening lined up with the matrix, that the control shelf sat at a comfortable height, and that every joint met at the right place before anything was cut.
 
 </div>
-<div class="step-images" markdown="1">
+<div class="cad-images" markdown="1">
 
-![CAD render of the full Tetris arcade cabinet](/assets/projects/tetris-arcade-machine/design-01.png)
-![Side view of the cabinet showing the screen rake and the projecting control shelf](/assets/projects/tetris-arcade-machine/design-02.png)
-![Exploded view showing how the side panels, front face and control shelf tab together](/assets/projects/tetris-arcade-machine/exploded.png)
-![The cabinet panels modelled as separate flat pieces](/assets/projects/tetris-arcade-machine/photo-01.jpg)
+<figure class="cad-image cad-image-top-one">
+  <img src="/assets/projects/tetris-arcade-machine/design-01.png" alt="CAD render of the full Tetris arcade cabinet">
+  <figcaption aria-hidden="true">CAD render of the full Tetris arcade cabinet</figcaption>
+</figure>
+<figure class="cad-image cad-image-top-two">
+  <img src="/assets/projects/tetris-arcade-machine/design-02.png" alt="Side view of the cabinet showing the screen rake and the projecting control shelf">
+  <figcaption aria-hidden="true">Side view of the cabinet showing the screen rake and the projecting control shelf</figcaption>
+</figure>
+<figure class="cad-image cad-image-top-three">
+  <img src="/assets/projects/tetris-arcade-machine/exploded.png" alt="Exploded view showing how the side panels, front face and control shelf tab together">
+  <figcaption aria-hidden="true">Exploded view showing how the side panels, front face and control shelf tab together</figcaption>
+</figure>
+<figure class="cad-image cad-image-side">
+  <img src="/assets/projects/tetris-arcade-machine/photo-01.jpg" alt="The cabinet panels modelled as separate flat pieces">
+  <figcaption aria-hidden="true">The cabinet panels modelled as separate flat pieces</figcaption>
+</figure>
 
 </div>
 </div>

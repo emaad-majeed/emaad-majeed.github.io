@@ -169,6 +169,21 @@ html, body { overflow-x: hidden; }
 .tetris-layout .step-images > :first-child { margin-top: 0; }
 .tetris-layout .project-step figure { margin: 0 0 3rem; }
 .tetris-layout .project-step figure:last-child { margin-bottom: 0; }
+.tetris-layout .cad-step {
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  grid-template-rows: auto auto;
+  gap: 1.5rem;
+}
+.tetris-layout .cad-step .step-copy {
+  grid-column: 1 / span 3;
+  grid-row: 2;
+}
+.tetris-layout .cad-images { display: contents; }
+.tetris-layout .cad-step .cad-image { margin: 0; }
+.tetris-layout .cad-image-top-one { grid-column: 1; grid-row: 1; }
+.tetris-layout .cad-image-top-two { grid-column: 2; grid-row: 1; }
+.tetris-layout .cad-image-top-three { grid-column: 3; grid-row: 1; }
+.tetris-layout .cad-image-side { grid-column: 4; grid-row: 2; }
 @media (max-width: 40rem) {
   .tetris-layout .project-step {
     display: block;
@@ -177,6 +192,11 @@ html, body { overflow-x: hidden; }
     padding: 0;
   }
   .tetris-layout .step-images > :first-child { margin-top: 3rem; }
+  .tetris-layout .cad-step .step-copy { display: block; }
+  .tetris-layout .cad-images { display: block; }
+  .tetris-layout .cad-step .cad-image { margin: 0 0 3rem; }
+  .tetris-layout .cad-step .cad-image:first-child { margin-top: 3rem; }
+  .tetris-layout .cad-step .cad-image:last-child { margin-bottom: 0; }
 }
 
 /* project facts block */
