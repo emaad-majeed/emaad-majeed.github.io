@@ -194,13 +194,13 @@ html, body { overflow-x: hidden; }
   gap: 1.5rem;
 }
 .tetris-layout .fab-step .step-copy {
-  grid-column: 1 / span 2;
+  grid-column: 3 / span 2;
   grid-row: 1;
 }
 .tetris-layout .fab-images { display: contents; }
 .tetris-layout .fab-step .fab-image { margin: 0; }
-.tetris-layout .fab-image-side-one { grid-column: 3; grid-row: 1; }
-.tetris-layout .fab-image-side-two { grid-column: 4; grid-row: 1; }
+.tetris-layout .fab-image-side-one { grid-column: 1; grid-row: 1; }
+.tetris-layout .fab-image-side-two { grid-column: 2; grid-row: 1; }
 .tetris-layout .fab-image-bottom-one { grid-column: 1; grid-row: 2; }
 .tetris-layout .fab-image-bottom-two { grid-column: 2; grid-row: 2; }
 .tetris-layout .fab-image-bottom-three { grid-column: 3; grid-row: 2; }
