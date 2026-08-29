@@ -36,8 +36,8 @@ I started from the classic upright arcade silhouette and worked it down to somet
 <div class="step-images" markdown="1">
 
 <figure class="line-sketch">
-  <img src="/assets/projects/tetris-arcade-machine/sketch-icon.png" alt="Line sketch of the arcade cabinet in three quarter view">
-  <figcaption aria-hidden="true">Line sketch of the arcade cabinet in three quarter view</figcaption>
+  <img src="/assets/projects/tetris-arcade-machine/sketch-icon.png" alt="Icon sketch of the arcade cabinet">
+  <figcaption aria-hidden="true">Icon sketch of the arcade cabinet</figcaption>
 </figure>
 
 </div>
