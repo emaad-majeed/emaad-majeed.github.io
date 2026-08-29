@@ -137,7 +137,7 @@ The playfield is a NeoPixel matrix sitting behind the screen opening. Raw, the i
 </figure>
 </div>
 
-<div class="project-step" markdown="1">
+<div class="project-step game-code-step" markdown="1">
 <div class="step-copy" markdown="1">
 
 The game had to be written from the ground up for a display that is only a few dozen pixels across. That meant mapping the LED strip into a grid, tracking the playfield state, and redrawing it cleanly every frame. Movement comes off the analog joystick and rotation off a debounced button. On top of the basic falling and clearing, I added a soft drop for faster placement, a level system that speeds the game up as it goes, line clears, and win and lose animations.
