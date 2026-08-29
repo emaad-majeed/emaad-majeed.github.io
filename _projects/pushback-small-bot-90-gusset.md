@@ -4,6 +4,10 @@ year: "2025"
 category: "vex"
 featured: true
 thumb: "/assets/projects/pushback-small-bot-90-gusset/thumb.png"
+hero: "/assets/projects/pushback-small-bot-90-gusset/hero.png"
+hero_w: 2140
+hero_h: 1204
+hero_alt: "Orange 90 degree gusset mounted on the Push Back small bot frame"
 featured_order: 5
 tagline: "structural gusset"
 blurb: "A lightweight 90 degree gusset I designed to brace the Push Back small bot frame."
