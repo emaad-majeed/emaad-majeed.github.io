@@ -19,5 +19,3 @@ Then I glued end pieces to it, squared the stocks, and assembled them together i
 ![Progress on the cutting board](/assets/projects/zig-zag-cutting-board/photo-08.jpg)
 ![Finished cutting board with the zig zag pattern](/assets/projects/zig-zag-cutting-board/photo-09.jpg)
 ![Finished zig zag cutting board](/assets/projects/zig-zag-cutting-board/photo-10.jpg)
-
-A demonstration video will be added.

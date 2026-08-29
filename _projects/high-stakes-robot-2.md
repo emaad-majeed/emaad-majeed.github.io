@@ -9,5 +9,5 @@ This is High Stakes Robot 2, the second competition robot I built for the VEX V5
 
 ![High Stakes Robot 2 showing the drive base, side gears, and chain driven arm](/assets/projects/high-stakes-robot-2/photo-01.jpg)
 ![Top down view of the robot with the arm, gears, and V5 brain during a build session](/assets/projects/high-stakes-robot-2/photo-02.jpg)
-![The robot set up in the workshop next to the VEX tournament champions award and its pneumatic tank](/assets/projects/high-stakes-robot-2/photo-03.jpg)
-![Close view of the pneumatic cylinders and air tank mounted on the robot](/assets/projects/high-stakes-robot-2/photo-04.jpg)
+![The robot set up in the workshop next to the VEX tournament champions award and its air tank](/assets/projects/high-stakes-robot-2/photo-03.jpg)
+![Close view of the cylinders and air tank mounted on the robot](/assets/projects/high-stakes-robot-2/photo-04.jpg)
