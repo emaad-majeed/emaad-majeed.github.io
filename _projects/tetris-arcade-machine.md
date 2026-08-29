@@ -72,20 +72,38 @@ I took the chosen profile into Fusion 360 and built the cabinet as a set of flat
 </figure>
 </div>
 
-<div class="project-step" markdown="1">
+<div class="project-step fab-step" markdown="1">
 <div class="step-copy" markdown="1">
 
 The assembly was flattened into a single cut file. Every panel carries tabs and matching slots so the cabinet locks together without brackets, and the screen and control openings are cut in the same pass. After cutting I engraved and painted the panels, then applied printed vinyl for the marquee and the tetromino artwork on the sides.
 
 </div>
-<div class="step-images" markdown="1">
+<div class="fab-images" markdown="1">
 
-![Flat pattern of every cabinet panel laid out for the laser cutter](/assets/projects/tetris-arcade-machine/flat-pattern.png)
-![Cut panels off the laser bed](/assets/projects/tetris-arcade-machine/photo-06.jpg)
-![Laser engraving the cabinet panels](/assets/projects/tetris-arcade-machine/photo-07.jpg)
-![Panels tabbed together into the finished cabinet](/assets/projects/tetris-arcade-machine/photo-08.jpg)
-![Vinyl artwork laid out on the computer before printing](/assets/projects/tetris-arcade-machine/photo-04.jpg)
-![Printed sticker sheet of the Tetris artwork](/assets/projects/tetris-arcade-machine/photo-05.jpg)
+<figure class="fab-image fab-image-side-one">
+  <img src="/assets/projects/tetris-arcade-machine/flat-pattern.png" alt="Flat pattern of every cabinet panel laid out for the laser cutter">
+  <figcaption aria-hidden="true">Flat pattern of every cabinet panel laid out for the laser cutter</figcaption>
+</figure>
+<figure class="fab-image fab-image-side-two">
+  <img src="/assets/projects/tetris-arcade-machine/photo-06.jpg" alt="Cut panels off the laser bed">
+  <figcaption aria-hidden="true">Cut panels off the laser bed</figcaption>
+</figure>
+<figure class="fab-image fab-image-bottom-one">
+  <img src="/assets/projects/tetris-arcade-machine/photo-07.jpg" alt="Laser engraving the cabinet panels">
+  <figcaption aria-hidden="true">Laser engraving the cabinet panels</figcaption>
+</figure>
+<figure class="fab-image fab-image-bottom-two">
+  <img src="/assets/projects/tetris-arcade-machine/photo-08.jpg" alt="Panels tabbed together into the finished cabinet">
+  <figcaption aria-hidden="true">Panels tabbed together into the finished cabinet</figcaption>
+</figure>
+<figure class="fab-image fab-image-bottom-three">
+  <img src="/assets/projects/tetris-arcade-machine/photo-04.jpg" alt="Vinyl artwork laid out on the computer before printing">
+  <figcaption aria-hidden="true">Vinyl artwork laid out on the computer before printing</figcaption>
+</figure>
+<figure class="fab-image fab-image-bottom-four">
+  <img src="/assets/projects/tetris-arcade-machine/photo-05.jpg" alt="Printed sticker sheet of the Tetris artwork">
+  <figcaption aria-hidden="true">Printed sticker sheet of the Tetris artwork</figcaption>
+</figure>
 
 </div>
 </div>

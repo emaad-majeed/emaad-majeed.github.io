@@ -189,6 +189,22 @@ html, body { overflow-x: hidden; }
 .tetris-layout .cad-image-top-two { grid-column: 2; grid-row: 1; }
 .tetris-layout .cad-image-top-three { grid-column: 1; grid-row: 1; }
 .tetris-layout .cad-image-side { grid-column: 4; grid-row: 1; }
+.tetris-layout .fab-step {
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  gap: 1.5rem;
+}
+.tetris-layout .fab-step .step-copy {
+  grid-column: 1 / span 2;
+  grid-row: 1;
+}
+.tetris-layout .fab-images { display: contents; }
+.tetris-layout .fab-step .fab-image { margin: 0; }
+.tetris-layout .fab-image-side-one { grid-column: 3; grid-row: 1; }
+.tetris-layout .fab-image-side-two { grid-column: 4; grid-row: 1; }
+.tetris-layout .fab-image-bottom-one { grid-column: 1; grid-row: 2; }
+.tetris-layout .fab-image-bottom-two { grid-column: 2; grid-row: 2; }
+.tetris-layout .fab-image-bottom-three { grid-column: 3; grid-row: 2; }
+.tetris-layout .fab-image-bottom-four { grid-column: 4; grid-row: 2; }
 @media (max-width: 40rem) {
   .tetris-layout .project-step {
     display: block;
@@ -202,6 +218,10 @@ html, body { overflow-x: hidden; }
   .tetris-layout .cad-step .cad-image:first-child { margin-top: 3rem; }
   .tetris-layout .cad-step .cad-image:last-child { margin-bottom: 0; }
   .tetris-layout .cad-step .cad-image-side { margin-top: 3rem; }
+  .tetris-layout .fab-images { display: block; }
+  .tetris-layout .fab-step .fab-image { margin: 0 0 3rem; }
+  .tetris-layout .fab-step .fab-image:first-child { margin-top: 3rem; }
+  .tetris-layout .fab-step .fab-image:last-child { margin-bottom: 0; }
 }
 
 /* project facts block */
