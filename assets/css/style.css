@@ -276,6 +276,46 @@ html, body { overflow-x: hidden; }
   .tetris-layout .electronics-step .electronics-image-side { margin-top: 3rem; }
 }
 
+/* Gusset page: keep the CAD process and the completed robot paired with their
+   accompanying text on larger screens, then preserve the text first order on phones. */
+.gusset-layout .project-step {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 4rem;
+  width: 100vw;
+  margin: 1.25rem calc(50% - 50vw) 4.5rem;
+  padding: 0 max(1.5rem, calc((100vw - 76rem) / 2));
+}
+.gusset-layout .step-copy,
+.gusset-layout .step-images { min-width: 0; }
+.gusset-layout .step-copy > :first-child,
+.gusset-layout .step-images > :first-child { margin-top: 0; }
+.gusset-layout .step-images {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 1.5rem;
+}
+.gusset-layout .project-step figure { margin: 0; }
+.gusset-layout .gusset-outline { grid-column: 1 / -1; grid-row: 1; }
+.gusset-layout .gusset-mounted-one { grid-column: 1; grid-row: 2; }
+.gusset-layout .gusset-mounted-two { grid-column: 2; grid-row: 2; }
+.gusset-layout .final-image { grid-column: 1 / -1; grid-row: 1; }
+@media (min-width: 40.01rem) {
+  .gusset-layout .final-step { margin-top: calc(1.25rem + 1.75in); }
+}
+@media (max-width: 40rem) {
+  .gusset-layout .project-step {
+    display: block;
+    width: auto;
+    margin: 1.25rem 0 4.5rem;
+    padding: 0;
+  }
+  .gusset-layout .step-images { display: block; }
+  .gusset-layout .project-step figure { margin: 0 0 3rem; }
+  .gusset-layout .step-images > :first-child { margin-top: 3rem; }
+  .gusset-layout .project-step figure:last-child { margin-bottom: 0; }
+}
+
 /* Water rocket page: pair the physical build and the later CAD re design with
    their related images on larger screens, then preserve the text first order
    on phones. */
