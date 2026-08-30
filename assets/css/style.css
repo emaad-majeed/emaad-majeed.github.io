@@ -223,11 +223,10 @@ html, body { overflow-x: hidden; }
 .tetris-layout .fab-images { display: contents; }
 .tetris-layout .fab-step .fab-image { margin: 0; }
 .tetris-layout .fab-image-side-one { grid-column: 1; grid-row: 1; }
-.tetris-layout .fab-image-side-two { grid-column: 2; grid-row: 1; }
-.tetris-layout .fab-image-bottom-one { grid-column: 1; grid-row: 2; }
-.tetris-layout .fab-image-bottom-two { grid-column: 2; grid-row: 2; }
-.tetris-layout .fab-image-bottom-three { grid-column: 3; grid-row: 2; }
-.tetris-layout .fab-image-bottom-four { grid-column: 4; grid-row: 2; }
+.tetris-layout .fab-image-bottom-one { grid-column: 2; grid-row: 1; }
+.tetris-layout .fab-image-bottom-two { grid-column: 1; grid-row: 2; }
+.tetris-layout .fab-image-bottom-three { grid-column: 2; grid-row: 2; }
+.tetris-layout .fab-image-bottom-four { grid-column: 3; grid-row: 2; }
 .tetris-layout .electronics-step {
   grid-template-columns: repeat(4, minmax(0, 1fr));
   column-gap: 1.5rem;

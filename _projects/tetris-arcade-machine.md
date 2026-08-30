@@ -84,10 +84,6 @@ The assembly was flattened into a single cut file. Every panel carries tabs and 
   <img src="/assets/projects/tetris-arcade-machine/flat-pattern.png" alt="Flat pattern of every cabinet panel laid out for the laser cutter">
   <figcaption aria-hidden="true">Flat pattern of every cabinet panel laid out for the laser cutter</figcaption>
 </figure>
-<figure class="fab-image fab-image-side-two">
-  <img src="/assets/projects/tetris-arcade-machine/photo-06.jpg" alt="Cut panels off the laser bed">
-  <figcaption aria-hidden="true">Cut panels off the laser bed</figcaption>
-</figure>
 <figure class="fab-image fab-image-bottom-one">
   <img src="/assets/projects/tetris-arcade-machine/photo-07.jpg" alt="Laser engraving the cabinet panels">
   <figcaption aria-hidden="true">Laser engraving the cabinet panels</figcaption>
