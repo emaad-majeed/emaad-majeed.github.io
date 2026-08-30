@@ -135,6 +135,16 @@ a { color: inherit; }
 /* ---- industrial design project pages (class: wide) ---- */
 html, body { overflow-x: hidden; }
 
+.project > .project-reveal {
+  opacity: 0;
+  transform: translateY(0.75rem);
+  transition: opacity 850ms ease, transform 850ms ease;
+}
+.project > .project-reveal.is-visible {
+  opacity: 1;
+  transform: none;
+}
+
 /* Full bleed hero: breaks out of the text column to the full page width.
    Uses margins rather than a transform, because the intro animation on
    .wrap > * animates transform and would override it. */
