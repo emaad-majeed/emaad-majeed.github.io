@@ -26,7 +26,7 @@ class: home
   </div>
 </section>
 
-<section class="list">
+<section class="list all-projects">
   <h2>All Projects</h2>
   {% assign projects = site.projects | sort: "year" | reverse %}
   {% for p in projects %}

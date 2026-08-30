@@ -45,14 +45,11 @@
     });
   })();
 
-  // Reveal each project section as it enters the reader's view.
+  // Reveal project rows as they enter the All Projects list.
   (function () {
-    var project = document.querySelector('article.project');
-    if (!project || !('IntersectionObserver' in window) ||
+    var list = document.querySelector('.all-projects');
+    if (!list || !('IntersectionObserver' in window) ||
         window.matchMedia('(prefers-reduced-motion: reduce)').matches) return;
-    var sections = Array.prototype.filter.call(project.children, function (section) {
-      return !section.classList.contains('ph');
-    });
     var reveal = new IntersectionObserver(function (entries) {
       entries.forEach(function (entry) {
         if (!entry.isIntersecting) return;
@@ -60,9 +57,9 @@
         reveal.unobserve(entry.target);
       });
     }, { threshold: 0.08 });
-    sections.forEach(function (section) {
-      section.classList.add('project-reveal');
-      reveal.observe(section);
+    list.querySelectorAll('.row').forEach(function (row) {
+      row.classList.add('project-list-reveal');
+      reveal.observe(row);
     });
   })();
 

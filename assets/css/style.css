@@ -69,6 +69,11 @@ a { color: inherit; }
 .row .title { font-weight: 500; display: block; }
 .row:hover .title { text-decoration: underline; }
 .row .desc { opacity: 0.55; font-size: 0.95rem; display: block; }
+.all-projects .project-list-reveal {
+  opacity: 0;
+  transition: opacity 850ms ease;
+}
+.all-projects .project-list-reveal.is-visible { opacity: 1; }
 
 /* Select projects: one image per row, stacked. Breaks out wider than the
    text column so the images read large. No frame, no border: the renders
@@ -134,16 +139,6 @@ a { color: inherit; }
 
 /* ---- industrial design project pages (class: wide) ---- */
 html, body { overflow-x: hidden; }
-
-.project > .project-reveal {
-  opacity: 0;
-  transform: translateY(0.75rem);
-  transition: opacity 850ms ease, transform 850ms ease;
-}
-.project > .project-reveal.is-visible {
-  opacity: 1;
-  transform: none;
-}
 
 /* Full bleed hero: breaks out of the text column to the full page width.
    Uses margins rather than a transform, because the intro animation on
