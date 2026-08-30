@@ -18,6 +18,8 @@ I designed a pancake robot cooker with a two axis batter dispenser and a robotic
 
 <p class="project-resources">Project documents: <a href="https://docs.google.com/document/d/e/2PACX-1vR8-MLkhSianqUsATvhWb2WghDUGNtmBo-8VOJ7ifEEtweeYRMAqfeL8VUVWDdBMkrhjn0erY5AsTHw/pub">Proposal</a>, <a href="https://a360.co/4oIOM2h">3D model</a>, <a href="https://docs.google.com/spreadsheets/d/e/2PACX-1vR_hkSceqagxelOayXScqAluhtnqh_gcnb7x5TrQ5hM504eRw2bxdCvHpCVNM5JWxAvUI6A0E-uNZVA/pubhtml">Budget</a>, <a href="https://docs.google.com/document/d/e/2PACX-1vQqXlZm5AVfn5CdtCuRi0AXv-CfZ8zAXOLhaFIQY8W0qVKGx9TYSIF7k3DeA0UCua7RY27E6Msbse_B/pub">Daily Log</a>, <a href="https://docs.google.com/spreadsheets/d/e/2PACX-1vQ7DZmYkYslHKd_D3PtjO2-QvRWc9_9jz5lOwbYD4-RWNZvrBUDmmNUFHYIkBr8qOjRfh_3Mkr_UJc4/pubhtml">Gantt Chart</a> and <a href="https://docs.google.com/document/d/e/2PACX-1vQBmln5hbauL22uz0APqdl6XLuMb3rRxYuLtOCmDesw7ZI5zYSKcYolPNqBlJmTZMCRtxqbGlqhzc9K/pub">Decision Matrix</a>.</p>
 
+<div class="fusion-model intro-model"><iframe src="https://glenbrook225484.autodesk360.com/g/shares/SH90d2dQT28d5b602811a8117f0c6075dcbb?mode=embed" title="Interactive Fusion 360 model of the pancake robot cooker" loading="lazy" allowfullscreen></iframe></div>
+
 ## 1. Process
 
 <div class="project-step" markdown="1">
@@ -39,8 +41,6 @@ I modelled the assembly in Fusion 360 before building it. The model brought the 
   <img src="/assets/projects/pancake-robot/screenshot-2024-03-04-at-8.27.20e280afpm.png" alt="CAD drawing of the pancake robot cooker assembly with the batter dispenser and robotic arm">
   <figcaption aria-hidden="true">CAD drawing of the pancake robot cooker assembly with the batter dispenser and robotic arm</figcaption>
 </figure>
-
-<div class="fusion-model"><iframe src="https://glenbrook225484.autodesk360.com/g/shares/SH90d2dQT28d5b602811a8117f0c6075dcbb?mode=embed" title="Interactive Fusion 360 model of the pancake robot cooker" loading="lazy" allowfullscreen></iframe></div>
 
 </div>
 </div>

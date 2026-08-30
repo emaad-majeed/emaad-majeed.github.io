@@ -277,6 +277,10 @@ html, body { overflow-x: hidden; }
   aspect-ratio: 4 / 3;
   margin: 0 0 3rem;
 }
+.pancake-robot-layout .intro-model {
+  max-width: 42rem;
+  margin: 3rem auto 4.5rem;
+}
 .pancake-robot-layout .fusion-model iframe {
   position: absolute;
   inset: 0;
