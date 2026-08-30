@@ -1,6 +1,7 @@
 ---
 title: "Pancake Robot Cooker"
 year: "2024"
+class: "wide pancake-robot-layout"
 featured: true
 thumb: "/assets/projects/pancake-robot/thumb.png"
 featured_order: 2
@@ -8,49 +9,61 @@ tagline: "cooking robot"
 blurb: "A robot that dispenses batter and flips pancakes using stepper motors."
 ---
 
-By: Emaad Majeed
+I designed a pancake robot cooker with a two axis batter dispenser and a robotic arm. Stepper motors move the dispenser across the griddle and position the spatula to flip the pancakes.
 
-## Project Description
+<dl class="meta">
+  <div><dt>Methods</dt><dd>CAD, 3D printing, motor control and assembly</dd></div>
+  <div><dt>Tools</dt><dd>Fusion 360, 3D printer and stepper motors</dd></div>
+</dl>
 
-Reflecting on the pancake robot cooker, it's impressive how technology has revolutionized even the simplest tasks like making breakfast. Imagine waking up to the smell of freshly cooked pancakes, all thanks to a cleverly designed robot in your kitchen. This machine utilizes a two-axis batter dispenser to precisely pour batter onto the griddle. And the best part is in its robotic arm, equipped with stepper motors. This arm seamlessly flips pancakes to ensure even cooking on both sides. It's like having a dedicated chef assistant, guaranteeing perfect pancakes while you enjoy your morning routine. Mastering the coding behind this system involves understanding stepper motors, crucial for the arm's movements. You can control these motors to flip pancakes automatically. In conclusion, the pancake robot cooker demonstrates how technology can elevate everyday tasks. The possibilities for innovation in robotics expand as you dig deeper into how they work.
+<p class="project-resources">Project documents: <a href="https://docs.google.com/document/d/e/2PACX-1vR8-MLkhSianqUsATvhWb2WghDUGNtmBo-8VOJ7ifEEtweeYRMAqfeL8VUVWDdBMkrhjn0erY5AsTHw/pub">Proposal</a>, <a href="https://a360.co/4oIOM2h">3D model</a>, <a href="https://docs.google.com/spreadsheets/d/e/2PACX-1vR_hkSceqagxelOayXScqAluhtnqh_gcnb7x5TrQ5hM504eRw2bxdCvHpCVNM5JWxAvUI6A0E-uNZVA/pubhtml">Budget</a>, <a href="https://docs.google.com/document/d/e/2PACX-1vQqXlZm5AVfn5CdtCuRi0AXv-CfZ8zAXOLhaFIQY8W0qVKGx9TYSIF7k3DeA0UCua7RY27E6Msbse_B/pub">Daily Log</a>, <a href="https://docs.google.com/spreadsheets/d/e/2PACX-1vQ7DZmYkYslHKd_D3PtjO2-QvRWc9_9jz5lOwbYD4-RWNZvrBUDmmNUFHYIkBr8qOjRfh_3Mkr_UJc4/pubhtml">Gantt Chart</a> and <a href="https://docs.google.com/document/d/e/2PACX-1vQBmln5hbauL22uz0APqdl6XLuMb3rRxYuLtOCmDesw7ZI5zYSKcYolPNqBlJmTZMCRtxqbGlqhzc9K/pub">Decision Matrix</a>.</p>
 
-#### Proposal
+## 1. Process
 
-[View the project Proposal (Google Doc)](https://docs.google.com/document/d/e/2PACX-1vR8-MLkhSianqUsATvhWb2WghDUGNtmBo-8VOJ7ifEEtweeYRMAqfeL8VUVWDdBMkrhjn0erY5AsTHw/pub)
+<div class="project-step" markdown="1">
+<div class="step-copy" markdown="1">
 
-#### 3D Model
+I began by exploring a system with two robotic arms, one for the batter dispenser and one for the spatula. I then replaced the dispenser arm with a two axis machine that could move the dispenser over the griddle. This gave the design a clearer division of work: the dispenser handles the batter while the robotic arm handles the flip.
 
-[![3D model screenshot](/assets/projects/pancake-robot/screenshot-2024-03-04-at-9.46.15e280afpm.png)](https://a360.co/4oIOM2h)
+I modelled the assembly in Fusion 360 before building it. The model brought the griddle, dispenser, arm and base together so I could work through the placement of the parts before making them.
 
-*Click image for Fusion 360 model*
+</div>
+<div class="step-images" markdown="1">
 
-![Pancake robot 3D model screenshot](/assets/projects/pancake-robot/screenshot-2024-03-04-at-8.27.20e280afpm.png)
+<figure class="process-image">
+  <img src="/assets/projects/pancake-robot/screenshot-2024-03-04-at-9.46.15e280afpm.png" alt="CAD view of the pancake robot cooker with the griddle, batter dispenser and robotic arm">
+  <figcaption aria-hidden="true">CAD view of the pancake robot cooker with the griddle, batter dispenser and robotic arm</figcaption>
+</figure>
 
-## Budget
+<figure class="process-image">
+  <img src="/assets/projects/pancake-robot/screenshot-2024-03-04-at-8.27.20e280afpm.png" alt="CAD drawing of the pancake robot cooker assembly with the batter dispenser and robotic arm">
+  <figcaption aria-hidden="true">CAD drawing of the pancake robot cooker assembly with the batter dispenser and robotic arm</figcaption>
+</figure>
 
-[View the project Budget (Google Sheet)](https://docs.google.com/spreadsheets/d/e/2PACX-1vR_hkSceqagxelOayXScqAluhtnqh_gcnb7x5TrQ5hM504eRw2bxdCvHpCVNM5JWxAvUI6A0E-uNZVA/pubhtml)
+</div>
+</div>
 
-## Daily Log
+## 2. Final Design
 
-[View the project Daily Log (Google Doc)](https://docs.google.com/document/d/e/2PACX-1vQqXlZm5AVfn5CdtCuRi0AXv-CfZ8zAXOLhaFIQY8W0qVKGx9TYSIF7k3DeA0UCua7RY27E6Msbse_B/pub)
+<div class="project-step" markdown="1">
+<div class="step-copy" markdown="1">
 
-## Gantt Chart
+The final design places the batter dispenser at one end of the griddle and the robot arm with its spatula at the other. I printed parts for both mechanisms and assembled the system around the griddle. Testing the motors and wiring showed where the motion needed adjustment, and I refined the design through those iterations.
 
-[View the project Gantt Chart (Google Sheet)](https://docs.google.com/spreadsheets/d/e/2PACX-1vQ7DZmYkYslHKd_D3PtjO2-QvRWc9_9jz5lOwbYD4-RWNZvrBUDmmNUFHYIkBr8qOjRfh_3Mkr_UJc4/pubhtml)
+</div>
+<div class="step-images" markdown="1">
 
-## Decision Matrix
+<div class="video"><iframe src="https://www.youtube.com/embed/CJ-02lUsz2o" title="Pancake robot cooker demonstration" loading="lazy" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe></div>
 
-[View the project Decision Matrix (Google Doc)](https://docs.google.com/document/d/e/2PACX-1vQBmln5hbauL22uz0APqdl6XLuMb3rRxYuLtOCmDesw7ZI5zYSKcYolPNqBlJmTZMCRtxqbGlqhzc9K/pub)
+<figure class="final-image">
+  <img src="/assets/projects/pancake-robot/render-01.png" alt="Render of the pancake robot cooker with the arm and dispenser on opposite sides of the griddle">
+  <figcaption aria-hidden="true">Render of the pancake robot cooker with the arm and dispenser on opposite sides of the griddle</figcaption>
+</figure>
 
-## Reflection
+<figure class="final-image">
+  <img src="/assets/projects/pancake-robot/render-02.png" alt="Render of the pancake robot cooker with the batter dispenser and robot arm on the base">
+  <figcaption aria-hidden="true">Render of the pancake robot cooker with the batter dispenser and robot arm on the base</figcaption>
+</figure>
 
-For this project, we started by brainstorming different ideas like go-karts, RC cars, and RC planes. We eventually chose the Pancake Robot Cooker because we realized other cooking robots were too complicated to make. Initially, we designed it with two robotic arms: one to hold a batter dispenser and another to flip pancakes with a spatula. Later, we revised our design. We replaced one of the arms with a 2-axis laser machine to hold the batter dispenser. This change made our design more practical and efficient. After creating a 3D model of our idea and finding parts online, we ordered everything we needed and began 3D printing parts for both the robotic arm and the CNC machine. The first parts we received included bearings, nuts, rods, and bolts. With these, we started building the base of the robotic arm. We tested the motor and gradually built up the arm structure. We encountered several challenges with coding and wiring the stepper motors, but after some trial and error, we managed to get it working. The movement was initially rough, but adding grease helped the gears turn more smoothly. Despite our efforts, we had significant trouble with the motors changing direction, and sometimes they even broke the base. While working on the motor issues, we also started assembling the CNC machine. This involved cutting metal rods and 3D printing additional parts. Throughout the project, I learned how to use various tools, including a 3D printer, bandsaw, mitre saw, and Dremel. Learning to use these tools was really cool and gave me valuable hands-on experience. Despite facing many challenges, this project was a great learning experience. It improved my technical skills and taught me a lot about robotics, coding, and mechanical assembly. The Pancake Robot Cooker project showed me the importance of perseverance and continuous improvement. Working on this project also taught me how to approach problems methodically. For instance, when we faced issues with the motor, we had to carefully analyze what was going wrong and experiment with different solutions. This iterative process of testing, troubleshooting, and refining was a key part of our learning experience. Additionally, collaborating with my teammates was an important aspect of this project. We had to communicate effectively, divide tasks based on our strengths, and support each other through the challenges. This teamwork was crucial to our progress and success. In the end, even though we didn't fully solve all the issues with the robotic arm, the Pancake Robot Cooker project was a huge step forward in my understanding of engineering and design. It showed me how rewarding it can be to see a project come together, even if it doesn't work perfectly the first time. This experience has inspired me to continue exploring and learning more about robotics and technology.
-
-## Physics Principles
-
-In our recent project, I applied the physics concepts and circuitry principles we've been learning in class to create a pancake robot cooker. This project challenged me to hook up various components, like motors, controllers, and switches, in parallel and series configurations. By understanding circuit schematics, I could ensure that each component worked together seamlessly. For example, I connected the batter dispenser's motor and the robotic arm's stepper motors in parallel to the power supply. This allowed them to operate independently while still receiving power from the same source. Additionally, I arranged the control circuitry in series with each component to coordinate their actions effectively. As part of the project, I also implemented switches to control the activation of different parts of the system. These switches served as manual overrides, allowing me to start and stop specific functions as needed. For instance, I used a switch to activate the batter dispenser's motor when it was time to pour batter onto the griddle. Through this hands-on project, I gained practical experience in applying classroom concepts to real-world scenarios. Building and troubleshooting the pancake robot cooker not only deepened my understanding of circuitry but also sparked my curiosity about how physics principles can be used to create innovative solutions.
-
-[Watch the project video on YouTube](https://www.youtube.com/watch?v=CJ-02lUsz2o)
-
-![CAD render of the pancake robot cooker](/assets/projects/pancake-robot/render-01.png)
-![Second CAD render of the pancake robot cooker](/assets/projects/pancake-robot/render-02.png)
+</div>
+</div>

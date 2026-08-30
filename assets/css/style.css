@@ -254,6 +254,36 @@ html, body { overflow-x: hidden; }
   .tetris-layout .electronics-step .electronics-image-side { margin-top: 3rem; }
 }
 
+/* Pancake robot page: pair each design stage with its related images on
+   larger screens, then return to the original text first sequence on phones. */
+.pancake-robot-layout .project-step {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 4rem;
+  width: 100vw;
+  margin: 1.25rem calc(50% - 50vw) 4.5rem;
+  padding: 0 max(1.5rem, calc((100vw - 76rem) / 2));
+}
+.pancake-robot-layout .step-copy,
+.pancake-robot-layout .step-images { min-width: 0; }
+.pancake-robot-layout .step-copy > :first-child,
+.pancake-robot-layout .step-images > :first-child { margin-top: 0; }
+.pancake-robot-layout .project-step figure { margin: 0 0 3rem; }
+.pancake-robot-layout .project-step figure:last-child { margin-bottom: 0; }
+.pancake-robot-layout .step-images .video { margin: 0 0 3rem; }
+@media (max-width: 40rem) {
+  .pancake-robot-layout .project-step {
+    display: block;
+    width: auto;
+    margin: 1.25rem 0 4.5rem;
+    padding: 0;
+  }
+  .pancake-robot-layout .step-images { display: block; }
+  .pancake-robot-layout .step-images > :first-child { margin-top: 3rem; }
+  .pancake-robot-layout .project-step figure { margin: 0 0 3rem; }
+  .pancake-robot-layout .project-step figure:last-child { margin-bottom: 0; }
+}
+
 /* Self watering plant pot page: pair each process explanation with its
    related system, design, interface, or prototype images on larger screens. */
 .plant-pot-layout .project-step {
