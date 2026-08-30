@@ -100,6 +100,14 @@ The redesign remains a CAD and interface proposal for a future version. It helpe
   <img src="/assets/projects/3d-printed-plant-pot/design-04.png" alt="Concept interface set flush into the redesigned pot enclosure">
   <figcaption aria-hidden="true">Concept interface set flush into the redesigned pot enclosure</figcaption>
 </figure>
+<figure class="redesign-image redesign-image-five">
+  <img src="/assets/projects/3d-printed-plant-pot/hero.png" alt="Concept detail of the reservoir interface on the redesigned pot">
+  <figcaption aria-hidden="true">Concept detail of the reservoir interface on the redesigned pot</figcaption>
+</figure>
+<figure class="redesign-image redesign-image-six">
+  <img src="/assets/projects/3d-printed-plant-pot/thumb.png" alt="Conceptual product redesign with the plant, cylindrical enclosure, and round display">
+  <figcaption aria-hidden="true">Conceptual product redesign with the plant, cylindrical enclosure, and round display</figcaption>
+</figure>
 
 </div>
 </div>
