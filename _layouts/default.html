@@ -16,6 +16,7 @@
   <main class="wrap">
     {{ content }}
   </main>
+  <div class="scroll-hint" aria-hidden="true">››</div>
   <script>
   // Give each project image a visible caption taken from its alt text, so the
   // writing runs down the page with the images instead of sitting in one block.
@@ -39,6 +40,18 @@
       });
       p.replaceWith(frag);
     });
+  })();
+
+  // Keep a quiet cue at the bottom of the first viewport, then remove it as
+  // soon as the reader starts moving through the page.
+  (function () {
+    var hint = document.querySelector('.scroll-hint');
+    if (!hint) return;
+    var update = function () {
+      hint.classList.toggle('is-hidden', window.scrollY > 8);
+    };
+    update();
+    window.addEventListener('scroll', update, { passive: true });
   })();
   </script>
 </body>

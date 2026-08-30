@@ -10,6 +10,23 @@ body {
   color: #ededed;
 }
 
+/* A small continuation cue at the bottom of a fresh page view. The paired
+   chevrons point down and fade as soon as the reader begins to scroll. */
+.scroll-hint {
+  position: fixed;
+  z-index: 1;
+  right: 1.25rem;
+  bottom: 1.15rem;
+  color: #858585;
+  font-size: 0.9rem;
+  letter-spacing: -0.2em;
+  line-height: 1;
+  pointer-events: none;
+  transform: rotate(90deg);
+  transition: opacity 180ms ease;
+}
+.scroll-hint.is-hidden { opacity: 0; }
+
 .wrap {
   max-width: 42rem;
   margin: 0 auto;
@@ -101,6 +118,7 @@ a { color: inherit; }
 @media (prefers-reduced-motion: reduce) {
   .card img, .card-title { transition: none; }
   .card:hover img { transform: none; }
+  .scroll-hint { transition: none; }
 }
 
 .foot { margin-top: 3.5rem; opacity: 0.6; }
