@@ -51,10 +51,14 @@
     var hint = document.querySelector('.scroll-hint');
     if (!hint) return;
     var update = function () {
-      hint.classList.toggle('is-hidden', window.scrollY > 8);
+      var atHeroStart = document.body.classList.contains('hero-start');
+      hint.classList.toggle('is-hidden', window.scrollY > 8 && !atHeroStart);
     };
     update();
     window.addEventListener('scroll', update, { passive: true });
+    ['wheel', 'touchstart', 'keydown', 'mousedown'].forEach(function (e) {
+      window.addEventListener(e, update, { passive: true });
+    });
   })();
   </script>
 </body>

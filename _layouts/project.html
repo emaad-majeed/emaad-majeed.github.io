@@ -35,13 +35,17 @@ layout: default
 
   var userMoved = false;
   ['wheel', 'touchstart', 'keydown', 'mousedown'].forEach(function (e) {
-    window.addEventListener(e, function () { userMoved = true; }, { once: true, passive: true });
+    window.addEventListener(e, function () {
+      userMoved = true;
+      document.body.classList.remove('hero-start');
+    }, { once: true, passive: true });
   });
 
   function go() {
     if (userMoved) return;
     var el = document.querySelector('.hero');
     if (!el) return;
+    document.body.classList.add('hero-start');
     var y = 0, n = el;
     while (n) { y += n.offsetTop; n = n.offsetParent; }   // layout position, ignores transforms
     window.scrollTo(0, y);
