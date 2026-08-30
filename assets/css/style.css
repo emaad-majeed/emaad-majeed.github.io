@@ -18,8 +18,8 @@ body {
   left: 50%;
   bottom: 1.5rem;
   color: #858585;
-  font-size: 1.35rem;
-  letter-spacing: -0.2em;
+  font-size: 1.7rem;
+  letter-spacing: 0.08em;
   line-height: 1;
   pointer-events: none;
   transform: translateX(-50%) rotate(90deg);
