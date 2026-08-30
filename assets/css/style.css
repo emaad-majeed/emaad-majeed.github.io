@@ -295,8 +295,12 @@ html, body { overflow-x: hidden; }
 .plant-pot-layout .redesign-image-two { grid-column: 2; grid-row: 1; }
 .plant-pot-layout .redesign-image-three { grid-column: 1; grid-row: 2; }
 .plant-pot-layout .redesign-image-four { grid-column: 2; grid-row: 2; }
-.plant-pot-layout .redesign-image-five { grid-column: 1; grid-row: 3; }
-.plant-pot-layout .redesign-image-six { grid-column: 2; grid-row: 3; }
+.plant-pot-layout .redesign-feature-images { margin-top: 3rem; }
+.plant-pot-layout .redesign-feature-image {
+  width: 100%;
+  margin: 0 0 3rem;
+}
+.plant-pot-layout .redesign-feature-image:last-child { margin-bottom: 0; }
 @media (max-width: 40rem) {
   .plant-pot-layout .project-step {
     display: block;

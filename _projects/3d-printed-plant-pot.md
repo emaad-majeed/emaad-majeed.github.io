@@ -81,6 +81,19 @@ The round screen exists only in this redesign concept. It was never installed on
 
 The redesign remains a CAD and interface proposal for a future version. It helped me translate what I learned from the working prototype into a clearer product direction with a more integrated enclosure and easier to understand feedback.
 
+<div class="redesign-feature-images" markdown="1">
+
+<figure class="redesign-feature-image redesign-feature-image-one">
+  <img src="/assets/projects/3d-printed-plant-pot/hero.png" alt="Concept detail of the reservoir interface on the redesigned pot">
+  <figcaption aria-hidden="true">Concept detail of the reservoir interface on the redesigned pot</figcaption>
+</figure>
+<figure class="redesign-feature-image redesign-feature-image-two">
+  <img src="/assets/projects/3d-printed-plant-pot/thumb.png" alt="Conceptual product redesign with the plant, cylindrical enclosure, and round display">
+  <figcaption aria-hidden="true">Conceptual product redesign with the plant, cylindrical enclosure, and round display</figcaption>
+</figure>
+
+</div>
+
 </div>
 <div class="step-images redesign-images" markdown="1">
 
@@ -99,14 +112,6 @@ The redesign remains a CAD and interface proposal for a future version. It helpe
 <figure class="redesign-image redesign-image-four">
   <img src="/assets/projects/3d-printed-plant-pot/design-04.png" alt="Concept interface set flush into the redesigned pot enclosure">
   <figcaption aria-hidden="true">Concept interface set flush into the redesigned pot enclosure</figcaption>
-</figure>
-<figure class="redesign-image redesign-image-five">
-  <img src="/assets/projects/3d-printed-plant-pot/hero.png" alt="Concept detail of the reservoir interface on the redesigned pot">
-  <figcaption aria-hidden="true">Concept detail of the reservoir interface on the redesigned pot</figcaption>
-</figure>
-<figure class="redesign-image redesign-image-six">
-  <img src="/assets/projects/3d-printed-plant-pot/thumb.png" alt="Conceptual product redesign with the plant, cylindrical enclosure, and round display">
-  <figcaption aria-hidden="true">Conceptual product redesign with the plant, cylindrical enclosure, and round display</figcaption>
 </figure>
 
 </div>
