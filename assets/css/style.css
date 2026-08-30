@@ -276,6 +276,47 @@ html, body { overflow-x: hidden; }
   .tetris-layout .electronics-step .electronics-image-side { margin-top: 3rem; }
 }
 
+/* Water rocket page: pair the physical build and the later CAD re design with
+   their related images on larger screens, then preserve the text first order
+   on phones. */
+.water-rocket-layout .project-step {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 4rem;
+  width: 100vw;
+  margin: 1.25rem calc(50% - 50vw) 4.5rem;
+  padding: 0 max(1.5rem, calc((100vw - 76rem) / 2));
+}
+.water-rocket-layout .step-copy,
+.water-rocket-layout .step-images { min-width: 0; }
+.water-rocket-layout .step-copy > :first-child,
+.water-rocket-layout .step-images > :first-child { margin-top: 0; }
+.water-rocket-layout .step-images {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 1.5rem;
+  align-content: start;
+}
+.water-rocket-layout .project-step figure { margin: 0; }
+.water-rocket-layout .cad-overview { grid-column: 1 / -1; }
+.water-rocket-layout .final-image { grid-column: 1 / -1; }
+@media (min-width: 40.01rem) {
+  .water-rocket-layout .cad-step,
+  .water-rocket-layout .final-step { margin-top: calc(1.25rem + 1.75in); }
+}
+@media (max-width: 40rem) {
+  .water-rocket-layout .project-step {
+    display: block;
+    width: auto;
+    margin: 1.25rem 0 4.5rem;
+    padding: 0;
+  }
+  .water-rocket-layout .step-images { display: block; }
+  .water-rocket-layout .project-step figure { margin: 0 0 3rem; }
+  .water-rocket-layout .step-images > :first-child { margin-top: 3rem; }
+  .water-rocket-layout .project-step figure:last-child { margin-bottom: 0; }
+}
+
 /* Pancake robot page: pair each design stage with its related images on
    larger screens, then return to the original text first sequence on phones. */
 .pancake-robot-layout .project-step {
