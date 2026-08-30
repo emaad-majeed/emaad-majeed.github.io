@@ -56,6 +56,19 @@ We began by making the rocket physically. The built prototype brought together t
 
 After the physical prototype, I re designed the rocket in CAD. I modeled the two stages as connected pieces, then worked through the body sections, fins, coupler, and controller enclosure as distinct elements. The CAD model made the relationship between the stages visible and gives the design a clear basis for another physical version.
 
+<div class="cad-detail-images" markdown="1">
+
+<figure class="process-image">
+  <img src="/assets/projects/water-rocket/render-03.png" alt="CAD close view of the coupler between the two stages">
+  <figcaption aria-hidden="true">CAD close view of the coupler between the two stages</figcaption>
+</figure>
+<figure class="process-image">
+  <img src="/assets/projects/water-rocket/render-04.png" alt="CAD render of the controller enclosure">
+  <figcaption aria-hidden="true">CAD render of the controller enclosure</figcaption>
+</figure>
+
+</div>
+
 </div>
 <div class="step-images" markdown="1">
 
@@ -71,15 +84,6 @@ After the physical prototype, I re designed the rocket in CAD. I modeled the two
   <img src="/assets/projects/water-rocket/render-02.png" alt="CAD view of the lower stage nozzle and the upper stage connection">
   <figcaption aria-hidden="true">CAD view of the lower stage nozzle and the upper stage connection</figcaption>
 </figure>
-<figure class="process-image">
-  <img src="/assets/projects/water-rocket/render-03.png" alt="CAD close view of the coupler between the two stages">
-  <figcaption aria-hidden="true">CAD close view of the coupler between the two stages</figcaption>
-</figure>
-<figure class="process-image">
-  <img src="/assets/projects/water-rocket/render-04.png" alt="CAD render of the controller enclosure">
-  <figcaption aria-hidden="true">CAD render of the controller enclosure</figcaption>
-</figure>
-
 </div>
 </div>
 

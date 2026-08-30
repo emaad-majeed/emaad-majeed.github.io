@@ -297,6 +297,12 @@ html, body { overflow-x: hidden; }
   gap: 1.5rem;
   align-content: start;
 }
+.water-rocket-layout .cad-detail-images {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 1.5rem;
+  margin-top: 3rem;
+}
 .water-rocket-layout .project-step figure { margin: 0; }
 .water-rocket-layout .cad-overview { grid-column: 1 / -1; }
 .water-rocket-layout .final-image { grid-column: 1 / -1; }
@@ -312,6 +318,7 @@ html, body { overflow-x: hidden; }
     padding: 0;
   }
   .water-rocket-layout .step-images { display: block; }
+  .water-rocket-layout .cad-detail-images { display: block; }
   .water-rocket-layout .project-step figure { margin: 0 0 3rem; }
   .water-rocket-layout .step-images > :first-child { margin-top: 3rem; }
   .water-rocket-layout .project-step figure:last-child { margin-bottom: 0; }
