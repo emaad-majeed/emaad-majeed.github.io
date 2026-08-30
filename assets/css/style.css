@@ -254,6 +254,70 @@ html, body { overflow-x: hidden; }
   .tetris-layout .electronics-step .electronics-image-side { margin-top: 3rem; }
 }
 
+/* Self watering plant pot page: pair each process explanation with its
+   related system, design, interface, or prototype images on larger screens. */
+.plant-pot-layout .project-step {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 4rem;
+  width: 100vw;
+  margin: 1.25rem calc(50% - 50vw) 4.5rem;
+  padding: 0 max(1.5rem, calc((100vw - 76rem) / 2));
+}
+.plant-pot-layout .step-copy,
+.plant-pot-layout .step-images { min-width: 0; }
+.plant-pot-layout .step-copy > :first-child,
+.plant-pot-layout .step-images > :first-child { margin-top: 0; }
+.plant-pot-layout .project-step figure { margin: 0 0 3rem; }
+.plant-pot-layout .project-step figure:last-child { margin-bottom: 0; }
+.plant-pot-layout .system-step {
+  grid-template-columns: minmax(0, 0.85fr) minmax(0, 1.15fr);
+}
+.plant-pot-layout .system-step .step-copy { grid-column: 1; grid-row: 1; }
+.plant-pot-layout .system-step .step-images { grid-column: 2; grid-row: 1; }
+.plant-pot-layout .form-step .step-copy { grid-column: 2; grid-row: 1; }
+.plant-pot-layout .design-images {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 1.5rem;
+  grid-column: 1;
+  grid-row: 1;
+}
+.plant-pot-layout .form-step .design-image { margin: 0; }
+.plant-pot-layout .design-image-one { grid-column: 1; grid-row: 1; }
+.plant-pot-layout .design-image-two { grid-column: 2; grid-row: 1; }
+.plant-pot-layout .controls-step .step-copy { grid-column: 1; grid-row: 1; }
+.plant-pot-layout .interface-images {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 1.5rem;
+  grid-column: 2;
+  grid-row: 1;
+}
+.plant-pot-layout .controls-step .interface-image { margin: 0; }
+.plant-pot-layout .interface-image-one { grid-column: 1; grid-row: 1; }
+.plant-pot-layout .interface-image-two { grid-column: 1; grid-row: 2; }
+.plant-pot-layout .final-step .step-copy { grid-column: 1; grid-row: 1; }
+.plant-pot-layout .final-images { grid-column: 2; grid-row: 1; }
+.plant-pot-layout .prototype-image {
+  width: 72%;
+  margin-right: auto;
+  margin-left: auto;
+}
+@media (max-width: 40rem) {
+  .plant-pot-layout .project-step {
+    display: block;
+    width: auto;
+    margin: 1.25rem 0 4.5rem;
+    padding: 0;
+  }
+  .plant-pot-layout .step-images { display: block; }
+  .plant-pot-layout .step-images > :first-child { margin-top: 3rem; }
+  .plant-pot-layout .project-step figure { margin: 0 0 3rem; }
+  .plant-pot-layout .project-step figure:last-child { margin-bottom: 0; }
+  .plant-pot-layout .prototype-image { width: 100%; }
+}
+
 /* project facts block */
 .meta {
   display: grid; grid-template-columns: repeat(2, 1fr);
