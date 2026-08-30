@@ -9,6 +9,8 @@ tagline: "cooking robot"
 blurb: "A robot that dispenses batter and flips pancakes using stepper motors."
 ---
 
+<div class="turntable"><iframe src="/assets/projects/pancake-robot/turntable.html" title="Interactive turntable of the pancake batter dispenser" loading="lazy" allowfullscreen></iframe></div>
+
 I designed a pancake robot cooker with a two axis batter dispenser and a robotic arm. Stepper motors move the dispenser across the griddle and position the spatula to flip the pancakes.
 
 <dl class="meta">
