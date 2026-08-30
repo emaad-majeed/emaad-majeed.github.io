@@ -17,17 +17,20 @@ body {
   z-index: 1;
   left: 50%;
   bottom: 1.5rem;
-  color: #858585;
-  font-size: 2.7rem;
-  letter-spacing: 0.08em;
-  line-height: 1;
-  -webkit-text-stroke: 1.5px #000;
-  paint-order: stroke fill;
+  width: 3rem;
+  height: 3rem;
   pointer-events: none;
-  transform: translateX(-50%) rotate(90deg);
+  transform: translateX(-50%);
   transition: opacity 180ms ease;
 }
 .scroll-hint.is-hidden { opacity: 0; }
+.scroll-hint path {
+  fill: none;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+}
+.scroll-hint-outline { stroke: #000; stroke-width: 6; }
+.scroll-hint-fill { stroke: #858585; stroke-width: 3; }
 
 .wrap {
   max-width: 42rem;

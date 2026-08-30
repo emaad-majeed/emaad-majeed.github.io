@@ -16,7 +16,10 @@
   <main class="wrap">
     {{ content }}
   </main>
-  <div class="scroll-hint" aria-hidden="true">››</div>
+  <svg class="scroll-hint" viewBox="0 0 48 48" aria-hidden="true" focusable="false">
+    <path class="scroll-hint-outline" d="M6 5 L24 21 L42 5 M6 27 L24 43 L42 27" />
+    <path class="scroll-hint-fill" d="M6 5 L24 21 L42 5 M6 27 L24 43 L42 27" />
+  </svg>
   <script>
   // Give each project image a visible caption taken from its alt text, so the
   // writing runs down the page with the images instead of sitting in one block.
