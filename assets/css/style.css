@@ -17,8 +17,8 @@ body {
   z-index: 1;
   left: 50%;
   bottom: 1.5rem;
-  width: 2.2rem;
-  height: 2.2rem;
+  width: 2rem;
+  height: 2rem;
   pointer-events: none;
   transform: translateX(-50%);
   transition: opacity 180ms ease;
@@ -29,8 +29,8 @@ body {
   stroke-linecap: round;
   stroke-linejoin: round;
 }
-.scroll-hint-outline { stroke: #858585; stroke-width: 6; }
-.scroll-hint-fill { stroke: #858585; stroke-width: 3; }
+.scroll-hint-outline { stroke: #707070; stroke-width: 6; }
+.scroll-hint-fill { stroke: #707070; stroke-width: 3; }
 
 .wrap {
   max-width: 42rem;
