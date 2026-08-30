@@ -29,8 +29,8 @@ body {
   stroke-linecap: round;
   stroke-linejoin: round;
 }
-.scroll-hint-outline { stroke: #707070; stroke-width: 6; }
-.scroll-hint-fill { stroke: #707070; stroke-width: 3; }
+.scroll-hint-outline { stroke: #565656; stroke-width: 6; }
+.scroll-hint-fill { stroke: #565656; stroke-width: 3; }
 
 .wrap {
   max-width: 42rem;
