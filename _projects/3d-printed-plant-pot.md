@@ -99,14 +99,6 @@ The redesign remains a CAD and interface proposal for a future version. It helpe
   <img src="/assets/projects/3d-printed-plant-pot/design-01.png" alt="Conceptual redesign of the plant pot with a round display set into the front">
   <figcaption aria-hidden="true">Conceptual redesign of the plant pot with a round display set into the front</figcaption>
 </figure>
-<figure class="redesign-image redesign-image-two">
-  <img src="/assets/projects/3d-printed-plant-pot/design-02.png" alt="Front view of the conceptual cylindrical enclosure and compact display">
-  <figcaption aria-hidden="true">Front view of the conceptual cylindrical enclosure and compact display</figcaption>
-</figure>
-<figure class="redesign-image redesign-image-three">
-  <img src="/assets/projects/3d-printed-plant-pot/design-03.png" alt="Concept interface with water, temperature, and plant status readings">
-  <figcaption aria-hidden="true">Concept interface with water, temperature, and plant status readings</figcaption>
-</figure>
 <figure class="redesign-image redesign-image-four">
   <img src="/assets/projects/3d-printed-plant-pot/design-04.png" alt="Concept interface set flush into the redesigned pot enclosure">
   <figcaption aria-hidden="true">Concept interface set flush into the redesigned pot enclosure</figcaption>
