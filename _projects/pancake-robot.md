@@ -7,6 +7,10 @@ thumb: "/assets/projects/pancake-robot/thumb.png"
 featured_order: 2
 tagline: "cooking robot"
 blurb: "A robot that dispenses batter and flips pancakes using stepper motors."
+hero: "/assets/projects/pancake-robot/hero.png"
+hero_w: 2140
+hero_h: 1204
+hero_alt: "Pancake robot cooker with the batter dispenser and robotic arm on a black base"
 ---
 
 I designed a pancake robot cooker with a two axis batter dispenser and a robotic arm. Stepper motors move the dispenser across the griddle and position the spatula to flip the pancakes.
