@@ -41,6 +41,18 @@ layout: default
     }, { once: true, passive: true });
   });
 
+  function markHeroStartIfVisible() {
+    if (userMoved) return;
+    var hero = document.querySelector('.hero');
+    if (hero && Math.abs(hero.getBoundingClientRect().top) < 16) {
+      document.body.classList.add('hero-start');
+    }
+  }
+
+  window.addEventListener('pageshow', function () {
+    window.setTimeout(markHeroStartIfVisible, 0);
+  });
+
   function go() {
     if (userMoved) return;
     var el = document.querySelector('.hero');
