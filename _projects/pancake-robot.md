@@ -40,6 +40,8 @@ I modelled the assembly in Fusion 360 before building it. The model brought the 
   <figcaption aria-hidden="true">CAD drawing of the pancake robot cooker assembly with the batter dispenser and robotic arm</figcaption>
 </figure>
 
+<div class="fusion-model"><iframe src="https://glenbrook225484.autodesk360.com/g/shares/SH90d2dQT28d5b602811a8117f0c6075dcbb?mode=embed" title="Interactive Fusion 360 model of the pancake robot cooker" loading="lazy" allowfullscreen></iframe></div>
+
 </div>
 </div>
 

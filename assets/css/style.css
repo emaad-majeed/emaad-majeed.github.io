@@ -271,6 +271,20 @@ html, body { overflow-x: hidden; }
 .pancake-robot-layout .project-step figure { margin: 0 0 3rem; }
 .pancake-robot-layout .project-step figure:last-child { margin-bottom: 0; }
 .pancake-robot-layout .step-images .video { margin: 0 0 3rem; }
+.pancake-robot-layout .fusion-model {
+  position: relative;
+  width: 100%;
+  aspect-ratio: 4 / 3;
+  margin: 0 0 3rem;
+}
+.pancake-robot-layout .fusion-model iframe {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  border: 0;
+  border-radius: 8px;
+}
 @media (max-width: 40rem) {
   .pancake-robot-layout .project-step {
     display: block;
