@@ -7,6 +7,10 @@ thumb: "/assets/projects/override-robot/thumb.png"
 featured_order: 4
 tagline: "vex robot concept"
 blurb: "A CAD concept for this VEX season built around tight packaging, a low center of gravity, and a 4 bar lift with a free arm."
+hero: "/assets/projects/override-robot/hero.png"
+hero_w: 2140
+hero_h: 1204
+hero_alt: "CAD render of the Override Robot with its lift, intake, and drivetrain"
 ---
 
 This is a cadded concept for this year of VEX robotics. The drivetrain is currently 44W on 2.75 inch wheels at 450 RPM. That ratio is good because it sits super low to the ground and keeps a low center of gravity. This season I really emphasize packaging and a low center of gravity, because the lifts are lifting up high.
